@@ -2,23 +2,23 @@ import requests
 import json
 import os
 import re
+import time
+import base64
 from datetime import datetime, timezone
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, parse_qs, unquote
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.chrome import ChromeDriverManager
 
 STATE_FILE = 'state.json'
 PLAYLIST_FILE = 'playlist.m3u8'
 API_URL = 'https://api.reidoscanais.im/channels'
 MAX_FAILURES = 6
-
-# Links diretos e estáveis de canais abertos (fallback garantido)
-FALLBACK_STREAMS = {
-    "globo": "https://globoplay-vod.akamaized.net/hls/live/2097892/globosp/master.m3u8", # Exemplo, pode variar, mas é um placeholder válido
-    "sbt": "https://sbt-vod.akamaized.net/hls/live/2097893/sbt/master.m3u8",
-    "record": "https://playplusmao-lh.akamaihd.net/i/pp_mao@409195/master.m3u8",
-    "band": "https://band-vod.akamaized.net/hls/live/2097894/band/master.m3u8",
-    "tvcultura": "https://cdn-01.playout.somostvc.com.br/tvcultura/tvcultura.m3u8"
-}
 
 def load_state():
     if os.path.exists(STATE_FILE):
@@ -30,107 +30,155 @@ def save_state(state):
     with open(STATE_FILE, 'w', encoding='utf-8') as f:
         json.dump(state, f, indent=2, ensure_ascii=False)
 
-def is_valid_stream_url(url):
-    """Verifica se a URL é um link de stream real, não uma página HTML."""
-    if not url or not isinstance(url, str):
-        return False
-    url_lower = url.lower()
-    return any(ext in url_lower for ext in ['.m3u8', '.ts', '.mp4', '.m3u'])
+def setup_selenium():
+    """Configura o Chrome headless para capturar requests de rede."""
+    chrome_options = Options()
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--disable-dev-shm-usage')
+    chrome_options.add_argument('--disable-gpu')
+    chrome_options.add_argument('--window-size=1920,1080')
+    chrome_options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
+    
+    # Habilita logging de performance para capturar requests
+    chrome_options.set_capability('goog:loggingPrefs', {'performance': 'ALL'})
+    
+    try:
+        service = Service(ChromeDriverManager().install())
+        driver = webdriver.Chrome(service=service, options=chrome_options)
+        return driver
+    except:
+        # Fallback para chromedriver do sistema
+        driver = webdriver.Chrome(options=chrome_options)
+        return driver
 
-def extract_real_stream(embed_url, session):
-    """Tenta extrair o link .m3u8 real do player."""
+def extract_stream_with_selenium(embed_url, driver):
+    """Usa Selenium para carregar a página e capturar requests .m3u8."""
+    m3u8_urls = []
+    
+    try:
+        # Limpa logs anteriores
+        driver.get('about:blank')
+        time.sleep(1)
+        
+        # Navega para o embed
+        driver.get(embed_url)
+        
+        # Aguarda a página carregar
+        time.sleep(5)
+        
+        # Captura todos os logs de performance
+        logs = driver.get_log('performance')
+        
+        for entry in logs:
+            log_data = json.loads(entry['message'])
+            message = log_data.get('message', {})
+            
+            # Procura por requests de rede
+            if message.get('method') == 'Network.requestWillBeSent':
+                params = message.get('params', {})
+                request = params.get('request', {})
+                url = request.get('url', '')
+                
+                # Verifica se é um link .m3u8
+                if '.m3u8' in url or '.mp4' in url or '.ts' in url:
+                    m3u8_urls.append(url)
+            
+            # Também verifica responses
+            if message.get('method') == 'Network.responseReceived':
+                params = message.get('params', {})
+                response = params.get('response', {})
+                url = response.get('url', '')
+                
+                if '.m3u8' in url or '.mp4' in url or '.ts' in url:
+                    m3u8_urls.append(url)
+        
+        # Se não encontrou via logs, tenta extrair do DOM
+        if not m3u8_urls:
+            page_source = driver.page_source
+            
+            # Procura por URLs no código fonte
+            patterns = [
+                r'(https?://[^\s"\'<>]+\.m3u8[^\s"\'<>]*)',
+                r'(https?://[^\s"\'<>]+\.mp4[^\s"\'<>]*)',
+                r'(https?://[^\s"\'<>]+\.ts[^\s"\'<>]*)'
+            ]
+            
+            for pattern in patterns:
+                matches = re.findall(pattern, page_source, re.IGNORECASE)
+                m3u8_urls.extend(matches)
+        
+        # Remove duplicatas e retorna o primeiro válido
+        unique_urls = list(set(m3u8_urls))
+        if unique_urls:
+            # Prioriza links que parecem ser streams diretos
+            for url in unique_urls:
+                if 'master.m3u8' in url or 'index.m3u8' in url or 'video.m3u8' in url:
+                    return url
+            return unique_urls[0]
+            
+        return None
+        
+    except Exception as e:
+        print(f"    ⚠️ Erro no Selenium: {e}")
+        return None
+
+def extract_with_requests_fallback(embed_url, session):
+    """Fallback usando requests + BeautifulSoup para casos simples."""
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
         'Referer': 'https://reidoscanais.im/'
     }
     
     try:
-        # 1. Página principal do embed
-        resp1 = session.get(embed_url, headers=headers, timeout=8)
-        if resp1.status_code != 200:
+        resp = session.get(embed_url, headers=headers, timeout=8)
+        if resp.status_code != 200:
             return None
             
         # Procura por iframe
-        iframe_match = re.search(r'<iframe[^>]+src=["\']([^"\']+)["\']', resp1.text, re.IGNORECASE)
-        iframe_url = iframe_match.group(1) if iframe_match else None
-        
-        if not iframe_url:
-            # Procura por player externo no HTML
-            ext_match = re.search(r'(https?://[^\s"\'<>]+(?:embed|player)[^\s"\'<>]*)', resp1.text, re.IGNORECASE)
-            if ext_match:
-                iframe_url = ext_match.group(1)
+        iframe_match = re.search(r'<iframe[^>]+src=["\']([^"\']+)["\']', resp.text, re.IGNORECASE)
+        if iframe_match:
+            iframe_url = iframe_match.group(1)
+            if iframe_url.startswith('//'):
+                iframe_url = 'https:' + iframe_url
+            elif iframe_url.startswith('/'):
+                iframe_url = f"https://{embed_url.split('/')[2]}{iframe_url}"
+            
+            # Verifica se o iframe tem o stream como parâmetro
+            parsed = urlparse(iframe_url)
+            params = parse_qs(parsed.query)
+            for key in ['m3u8', 'file', 'url', 'stream', 'src']:
+                if key in params:
+                    potential = unquote(params[key][0])
+                    if '.m3u8' in potential or '.mp4' in potential:
+                        return potential
+            
+            if '.m3u8' in iframe_url:
+                return iframe_url
                 
-        if not iframe_url:
-            return None
-            
-        # Normaliza URL do iframe
-        if iframe_url.startswith('//'):
-            iframe_url = 'https:' + iframe_url
-        elif iframe_url.startswith('/'):
-            iframe_url = f"https://{embed_url.split('/')[2]}{iframe_url}"
-            
-        # 2. Verifica se o link do iframe já é o stream ou tem o stream como parâmetro
-        parsed = urlparse(iframe_url)
-        params = parse_qs(parsed.query)
-        for key in ['m3u8', 'file', 'url', 'stream', 'src', 'source']:
-            if key in params:
-                potential = unquote(params[key][0])
-                if is_valid_stream_url(potential):
-                    return potential
-                    
-        if is_valid_stream_url(iframe_url):
-            return iframe_url
-            
-        # 3. Busca dentro do HTML do iframe
-        headers['Referer'] = embed_url
-        resp2 = session.get(iframe_url, headers=headers, timeout=8)
-        if resp2.status_code != 200:
-            return None
-            
-        html = resp2.text
-        
-        # Padrões comuns de players (JWPlayer, VideoJS, Clappr, etc.)
-        patterns = [
-            r'const streamUrl\s*=\s*["\']([^"\']+)["\']',
-            r'file:\s*["\']([^"\']+)["\']',
-            r'source:\s*["\']([^"\']+)["\']',
-            r'<source[^>]+src=["\']([^"\']+)["\']',
-            r'video\.src\s*=\s*["\']([^"\']+)["\']',
-            r'["\'](https?://[^"\']+\.m3u8[^"\']*)["\']'
-        ]
-        
-        for pattern in patterns:
-            match = re.search(pattern, html, re.IGNORECASE)
-            if match:
-                stream_url = match.group(1).replace('\/', '/').replace('\\', '')
-                if is_valid_stream_url(stream_url):
-                    return stream_url
-                    
-        # 4. Tenta iframe aninhado (último recurso)
-        nested_match = re.search(r'<iframe[^>]+src=["\']([^"\']+)["\']', html, re.IGNORECASE)
-        if nested_match:
-            nested_url = nested_match.group(1)
-            if nested_url.startswith('//'):
-                nested_url = 'https:' + nested_url
-            elif nested_url.startswith('/'):
-                nested_url = f"https://{iframe_url.split('/')[2]}{nested_url}"
-            return extract_real_stream(nested_url, session)
+        # Procura por links diretos no HTML
+        m3u8_match = re.search(r'(https?://[^\s"\'<>]+\.m3u8[^\s"\'<>]*)', resp.text, re.IGNORECASE)
+        if m3u8_match:
+            return m3u8_match.group(1)
             
         return None
         
-    except Exception:
+    except:
         return None
 
-def check_link_active(url, session):
-    """Testa se o link de stream responde."""
-    headers = {'User-Agent': 'VLC/3.0.18', 'Referer': 'https://reidoscanais.im/'}
-    try:
-        # stream=True evita baixar o vídeo, pega apenas os headers
-        resp = session.get(url, headers=headers, timeout=6, stream=True)
-        return resp.status_code == 200
-    except:
-        return False
+def extract_real_stream(embed_url, session, driver):
+    """Tenta extrair o stream usando Selenium primeiro, depois fallback para requests."""
+    # Tenta com Selenium (mais robusto)
+    stream_url = extract_stream_with_selenium(embed_url, driver)
+    if stream_url:
+        return stream_url
+    
+    # Fallback para requests
+    stream_url = extract_with_requests_fallback(embed_url, session)
+    if stream_url:
+        return stream_url
+    
+    return None
 
 def main():
     state = load_state()
@@ -139,7 +187,7 @@ def main():
     
     print("🚀 Iniciando atualização da playlist...")
     
-    # 1. Buscar API
+    # 1. Buscar todos os canais da API
     api_channels = []
     try:
         resp = session.get(API_URL, timeout=15)
@@ -149,7 +197,7 @@ def main():
     except Exception as e:
         print(f"⚠️ Erro na API: {e}. Usando estado anterior.")
 
-    # 2. Processar canais
+    # 2. Processar todos os canais
     found_embeds = set()
     for ch in api_channels:
         name = ch.get('name', 'Sem Nome').strip()
@@ -174,70 +222,83 @@ def main():
             state['channels'][embed_url]['logo'] = logo
         else:
             state['channels'][embed_url] = {
-                'name': name, 'category': category, 'logo': logo,
-                'failures': 0, 'last_seen': now, 'stream_url': None
+                'name': name,
+                'category': category,
+                'logo': logo,
+                'failures': 0,
+                'last_seen': now,
+                'stream_url': None
             }
 
-    # 3. Extrair e testar streams
-    channels_to_keep = {}
-    active_count = 0
+    # 3. Inicializar Selenium
+    print("🌐 Iniciando navegador headless...")
+    driver = None
+    try:
+        driver = setup_selenium()
+        print("✅ Navegador iniciado com sucesso.")
+    except Exception as e:
+        print(f"⚠️ Erro ao iniciar Selenium: {e}. Usando apenas requests.")
+
+    # 4. Extrair links de stream
+    print("🔍 Extraindo links de stream...")
+    extracted_count = 0
     
-    print("🔍 Extraindo e testando links de stream...")
-    for embed_url, info in state['channels'].items():
+    for i, (embed_url, info) in enumerate(state['channels'].items(), 1):
         if embed_url not in found_embeds:
             info['failures'] += 1
-            
-        # Tenta extrair o stream real
-        stream_url = extract_real_stream(embed_url, session)
+            continue
         
-        # Fallback para canais abertos conhecidos se a extração falhar
-        if not stream_url:
-            channel_id = embed_url.split('/')[-1].lower()
-            if channel_id in FALLBACK_STREAMS:
-                stream_url = FALLBACK_STREAMS[channel_id]
-                print(f"  ⚠️ Usando fallback público para: {info['name']}")
+        print(f"  [{i}/{len(state['channels'])}] Processando: {info['name']}")
         
-        info['stream_url'] = stream_url
-        
-        # Testa se o stream está ativo
-        is_active = False
-        if stream_url and is_valid_stream_url(stream_url):
-            is_active = check_link_active(stream_url, session)
-            
-        if is_active:
-            info['failures'] = 0
-            channels_to_keep[embed_url] = info
-            active_count += 1
-            print(f"  ✅ ATIVO: {info['name']} -> {stream_url[:60]}...")
+        # Tenta extrair o stream
+        stream_url = None
+        if driver:
+            stream_url = extract_real_stream(embed_url, session, driver)
         else:
-            info['failures'] += 1
-            if info['failures'] < MAX_FAILURES:
-                channels_to_keep[embed_url] = info
-                print(f"  ⚠️ FALHA ({info['failures']}/{MAX_FAILURES}): {info['name']}")
-            else:
-                print(f"  ❌ REMOVIDO: {info['name']} (após {MAX_FAILURES} falhas)")
+            stream_url = extract_with_requests_fallback(embed_url, session)
+        
+        if stream_url:
+            info['stream_url'] = stream_url
+            extracted_count += 1
+            print(f"    ✅ Extraído: {stream_url[:70]}...")
+        else:
+            info['stream_url'] = embed_url
+            print(f"    ⚠️ Fallback para embed")
+
+    # 5. Fechar Selenium
+    if driver:
+        driver.quit()
+        print("✅ Navegador fechado.")
+
+    # 6. Remover canais que sumiram da API
+    channels_to_keep = {}
+    for embed_url, info in state['channels'].items():
+        if info['failures'] < MAX_FAILURES:
+            channels_to_keep[embed_url] = info
+        else:
+            print(f"  ❌ Removido: {info['name']}")
 
     state['channels'] = channels_to_keep
     save_state(state)
 
-    # 4. Gerar playlist M3U
+    # 7. Gerar playlist M3U
     with open(PLAYLIST_FILE, 'w', encoding='utf-8') as f:
         f.write('#EXTM3U url-tvg="https://raw.githubusercontent.com/iptv-org/epg/master/guides/br.guide.xml"\n')
         
         for embed_url, info in state['channels'].items():
-            stream_url = info.get('stream_url')
+            final_url = info.get('stream_url', embed_url)
             
-            # SÓ escreve na playlist se for um link de stream válido
-            if stream_url and is_valid_stream_url(stream_url):
-                name = info['name'].replace(',', ' ').replace('"', "'")
-                category = info['category'].replace(',', ' ').replace('"', "'")
-                logo = info['logo']
-                
-                f.write(f'#EXTINF:-1 tvg-id="{name}" tvg-name="{name}" tvg-logo="{logo}" group-title="{category}",{name}\n')
-                f.write(f'{stream_url}\n')
+            name = info['name'].replace(',', ' ').replace('"', "'")
+            category = info['category'].replace(',', ' ').replace('"', "'")
+            logo = info['logo']
+            
+            f.write(f'#EXTINF:-1 tvg-id="{name}" tvg-name="{name}" tvg-logo="{logo}" group-title="{category}",{name}\n')
+            f.write(f'{final_url}\n')
 
-    print(f"\n🎉 SUCESSO! Playlist gerada com {active_count} canais ativos e testados.")
-    print(f"Arquivo salvo como: {PLAYLIST_FILE}")
+    print(f"\n🎉 SUCESSO!")
+    print(f"📊 Total de canais: {len(state['channels'])}")
+    print(f"🔗 Links extraídos: {extracted_count}")
+    print(f"📄 Playlist: {PLAYLIST_FILE}")
 
 if __name__ == '__main__':
     main()
