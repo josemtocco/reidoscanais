@@ -1,0 +1,739 @@
+{
+  "channels": {
+    "https://rdcanais.org/adultswim": {
+      "name": "Adult Swim",
+      "category": "Entretenimento",
+      "logo": "https://logocanais.pics/imagens/adultswim.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/ae": {
+      "name": "AE",
+      "category": "Entretenimento",
+      "logo": "https://logocanais.pics/imagens/ae.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/agromais": {
+      "name": "Agro+",
+      "category": "Notícias",
+      "logo": "https://logocanais.pics/imagens/agromais.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/amc": {
+      "name": "AMC",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/amc.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/animalplanet": {
+      "name": "Animal Planet",
+      "category": "Documentários",
+      "logo": "https://logocanais.pics/imagens/animalplanet.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/arte1": {
+      "name": "Arte1",
+      "category": "Entretenimento",
+      "logo": "https://logocanais.pics/imagens/arte1.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/axn": {
+      "name": "AXN",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/axn.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/band": {
+      "name": "Band",
+      "category": "Canais Abertos",
+      "logo": "https://logocanais.pics/imagens/band.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/bandnews": {
+      "name": "Band News",
+      "category": "Notícias",
+      "logo": "https://logocanais.pics/imagens/bandnews.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/bandsports": {
+      "name": "Band Sports",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/bandsports.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/bis": {
+      "name": "BIS",
+      "category": "Entretenimento",
+      "logo": "https://logocanais.pics/imagens/bis.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/canalbrasil": {
+      "name": "Canal Brasil",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/canalbrasil.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/canaloff": {
+      "name": "Canal OFF",
+      "category": "Entretenimento",
+      "logo": "https://logocanais.pics/imagens/canaloff.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/cartoonnetwork": {
+      "name": "Cartoon Network",
+      "category": "Infantil",
+      "logo": "https://logocanais.pics/imagens/cartoonnetwork.webp",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/cartoonito": {
+      "name": "Cartoonito",
+      "category": "Infantil",
+      "logo": "https://logocanais.pics/imagens/cartoonito.webp",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/cazetv": {
+      "name": "Caze TV",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/cazetv.webp",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/cazetv2": {
+      "name": "Caze TV 2",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/cazetv.webp",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/cazetv3": {
+      "name": "Caze TV 3",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/cazetv.webp",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/cinemax": {
+      "name": "Cinemax",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/cinemax.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/cnnbrasil": {
+      "name": "CNN Brasil",
+      "category": "Notícias",
+      "logo": "https://logocanais.pics/imagens/cnnbrasil.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/combate": {
+      "name": "Combate",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/combate.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/curta": {
+      "name": "Curta!",
+      "category": "Entretenimento",
+      "logo": "https://logocanais.pics/imagens/curta.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/discoverychannel": {
+      "name": "Discovery Channel",
+      "category": "Documentários",
+      "logo": "https://logocanais.pics/imagens/discoverychannel.webp",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/discoveryheh": {
+      "name": "Discovery Home e Health",
+      "category": "Entretenimento",
+      "logo": "https://logocanais.pics/imagens/discoveryheh.webp",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/discoveryid": {
+      "name": "Discovery ID",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/discoveryid.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/discoverykids": {
+      "name": "Discovery Kids",
+      "category": "Infantil",
+      "logo": "https://logocanais.pics/imagens/discoverykids.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/discoveryscience": {
+      "name": "Discovery Science",
+      "category": "Documentários",
+      "logo": "https://logocanais.pics/imagens/discoveryscience.webp",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/discoverytheater": {
+      "name": "Discovery Theater",
+      "category": "Documentários",
+      "logo": "https://logocanais.pics/imagens/discoverytheater.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/discoveryturbo": {
+      "name": "Discovery Turbo",
+      "category": "Documentários",
+      "logo": "https://logocanais.pics/imagens/discoveryturbo.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/discoveryworld": {
+      "name": "Discovery World",
+      "category": "Documentários",
+      "logo": "https://logocanais.pics/imagens/discoveryworld.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/e": {
+      "name": "E!",
+      "category": "Entretenimento",
+      "logo": "https://logocanais.pics/imagens/e.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/fashiontv": {
+      "name": "Fashion TV",
+      "category": "Entretenimento",
+      "logo": "https://logocanais.pics/imagens/fashiontv.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/fishtv": {
+      "name": "Fish TV",
+      "category": "Entretenimento",
+      "logo": "https://logocanais.pics/imagens/fishtv.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/foodnetwork": {
+      "name": "Food Network",
+      "category": "Entretenimento",
+      "logo": "https://logocanais.pics/imagens/foodnetwork.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/futura": {
+      "name": "Futura",
+      "category": "Documentários",
+      "logo": "https://logocanais.pics/imagens/futura.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/globorj": {
+      "name": "Globo",
+      "category": "Canais Abertos",
+      "logo": "https://logocanais.pics/imagens/tvglobo.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/globonews": {
+      "name": "Globo News",
+      "category": "Notícias",
+      "logo": "https://logocanais.pics/imagens/globonews.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/globoplaynovelas": {
+      "name": "Globoplay Novelas",
+      "category": "Entretenimento",
+      "logo": "https://logocanais.pics/imagens/globoplaynovelas.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/gloob": {
+      "name": "Gloob",
+      "category": "Infantil",
+      "logo": "https://logocanais.pics/imagens/gloob.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/gloobinho": {
+      "name": "Gloobinho",
+      "category": "Infantil",
+      "logo": "https://logocanais.pics/imagens/gloobinho.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/gnt": {
+      "name": "GNT",
+      "category": "Entretenimento",
+      "logo": "https://logocanais.pics/imagens/gnt.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/hbo": {
+      "name": "HBO",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/hbo.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/hbo2": {
+      "name": "HBO 2",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/hbo2.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/hbofamily": {
+      "name": "HBO Family",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/hbofamily.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/hbopop": {
+      "name": "HBO Pop",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/hbopop.webp",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/hbosignature": {
+      "name": "HBO Signature",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/hbosignature.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/hboxtreme": {
+      "name": "HBO Xtreme",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/hboxtreme.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/hboplus": {
+      "name": "HBO+",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/hboplus.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/hgtv": {
+      "name": "HGTV",
+      "category": "Entretenimento",
+      "logo": "https://logocanais.pics/imagens/hgtv.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/history": {
+      "name": "History",
+      "category": "Documentários",
+      "logo": "https://logocanais.pics/imagens/history.webp",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/history2": {
+      "name": "History 2",
+      "category": "Documentários",
+      "logo": "https://logocanais.pics/imagens/history2.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/jpnews": {
+      "name": "JP News",
+      "category": "Notícias",
+      "logo": "https://logocanais.pics/imagens/jpnews.webp",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/lifetime": {
+      "name": "Lifetime",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/lifetime.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/megapix": {
+      "name": "Megapix",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/megapix.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/modoviagem": {
+      "name": "Modo Viagem",
+      "category": "Entretenimento",
+      "logo": "https://logocanais.pics/imagens/modoviagem.svg",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/multishow": {
+      "name": "Multishow",
+      "category": "Entretenimento",
+      "logo": "https://logocanais.pics/imagens/multishow.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/nsports": {
+      "name": "NSports",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/nsports.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/paramountplus": {
+      "name": "Paramount+",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/paramountplus.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/paramountplus2": {
+      "name": "Paramount+ 2",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/paramountplus.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/paramountplus3": {
+      "name": "Paramount+ 3",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/paramountplus.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/paramountplus4": {
+      "name": "Paramount+ 4",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/paramountplus.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/premiereclubes": {
+      "name": "Premiere",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/premiere.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/premiere2": {
+      "name": "Premiere 2",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/premiere.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/premiere3": {
+      "name": "Premiere 3",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/premiere.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/premiere4": {
+      "name": "Premiere 4",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/premiere.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/premiere5": {
+      "name": "Premiere 5",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/premiere.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/premiere6": {
+      "name": "Premiere 6",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/premiere.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/premiere7": {
+      "name": "Premiere 7",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/premiere.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/premiere8": {
+      "name": "Premiere 8",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/premiere.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/record": {
+      "name": "Record",
+      "category": "Canais Abertos",
+      "logo": "https://logocanais.pics/imagens/record.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/recordnews": {
+      "name": "Record News",
+      "category": "Notícias",
+      "logo": "https://logocanais.pics/imagens/recordnews.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/redetv": {
+      "name": "RedeTV!",
+      "category": "Canais Abertos",
+      "logo": "https://logocanais.pics/imagens/redetv.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/saborearte": {
+      "name": "Sabor e Arte",
+      "category": "Canais Abertos",
+      "logo": "https://logocanais.pics/imagens/saborearte.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/sbt": {
+      "name": "SBT",
+      "category": "Canais Abertos",
+      "logo": "https://logocanais.pics/imagens/sbt.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/sbtnews": {
+      "name": "SBT News",
+      "category": "Notícias",
+      "logo": "https://logocanais.pics/imagens/sbtnews.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/sonychannel": {
+      "name": "Sony Channel",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/sonychannel.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/sonymovies": {
+      "name": "Sony Movies",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/sonymovies.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/space": {
+      "name": "Space",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/space.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/sportv": {
+      "name": "Sportv",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/sportv.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/sportv2": {
+      "name": "Sportv 2",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/sportv.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/sportv3": {
+      "name": "Sportv 3",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/sportv.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/sportynet": {
+      "name": "SportyNet",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/sportynet.avif",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/sportynetplus": {
+      "name": "SportyNet+ 1",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/sportynet.avif",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/sportynetplus2": {
+      "name": "SportyNet+ 2",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/sportynet.avif",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/sportynetplus3": {
+      "name": "SportyNet+ 3",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/sportynet.avif",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/studiouniversal": {
+      "name": "Studio Universal",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/studiouniversal.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/telecineaction": {
+      "name": "Telecine Action",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/telecineaction.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/telecinecult": {
+      "name": "Telecine Cult",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/telecinecult.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/telecinefun": {
+      "name": "Telecine Fun",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/telecinefun.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/telecinepipoca": {
+      "name": "Telecine Pipoca",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/telecinepipoca.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/telecinepremium": {
+      "name": "Telecine Premium",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/telecinepremium.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/telecinetouch": {
+      "name": "Telecine Touch",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/telecinetouch.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/tlc": {
+      "name": "TLC",
+      "category": "Entretenimento",
+      "logo": "https://logocanais.pics/imagens/tlc.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/tnt": {
+      "name": "TNT",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/tnt.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/tntnovelas": {
+      "name": "TNT Novelas",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/tntnovelas.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/tntseries": {
+      "name": "TNT Séries",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/tntseries.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/tooncast": {
+      "name": "Tooncast",
+      "category": "Infantil",
+      "logo": "https://logocanais.pics/imagens/tooncast.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/aparecida": {
+      "name": "TV Aparecida",
+      "category": "Canais Abertos",
+      "logo": "https://logocanais.pics/imagens/aparecida.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/tvbrasil": {
+      "name": "TV Brasil",
+      "category": "Canais Abertos",
+      "logo": "https://logocanais.pics/imagens/tvbrasil.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/tvcultura": {
+      "name": "TV Cultura",
+      "category": "Canais Abertos",
+      "logo": "https://logocanais.pics/imagens/tvcultura.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/universaltv": {
+      "name": "Universal TV",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/universaltv.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/usa": {
+      "name": "USA",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/usa.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/warnertv": {
+      "name": "Warner TV",
+      "category": "Filmes e Séries",
+      "logo": "https://logocanais.pics/imagens/warnertv.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/woohoo": {
+      "name": "WooHoo",
+      "category": "Entretenimento",
+      "logo": "https://logocanais.pics/imagens/woohoo.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    },
+    "https://rdcanais.org/xsports": {
+      "name": "XSports",
+      "category": "Esportes",
+      "logo": "https://logocanais.pics/imagens/xsports.png",
+      "failures": 0,
+      "last_seen": "2026-11-16T18:31:04.568908+00:00"
+    }
+  }
+}
