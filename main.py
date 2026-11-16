@@ -3,6 +3,8 @@ import json
 import os
 import re
 from datetime import datetime, timezone
+from bs4 import BeautifulSoup
+from urllib.parse import urlparse, parse_qs, unquote
 
 STATE_FILE = 'state.json'
 PLAYLIST_FILE = 'playlist.m3u8'
@@ -19,58 +21,130 @@ def save_state(state):
     with open(STATE_FILE, 'w', encoding='utf-8') as f:
         json.dump(state, f, indent=2, ensure_ascii=False)
 
-def extract_direct_stream(embed_url):
-    """Tenta extrair um link .m3u8 direto do HTML do embed. Se falhar, retorna o próprio embed_url."""
+def get_direct_stream_url(embed_url, session):
+    """Extrai o link .m3u8 real da página de embed, navegando em iframes e decodificando JS."""
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
         'Referer': 'https://reidoscanais.im/'
     }
+    
     try:
-        response = requests.get(embed_url, headers=headers, timeout=5)
-        # Procura por URLs terminadas em .m3u8 ou .m3u no código fonte
-        match = re.search(r'(https?://[^\s\"\'<>]+\.m3u8[^\s\"\'<>]*)', response.text, re.IGNORECASE)
-        if match:
-            return match.group(1)
-    except requests.exceptions.RequestException:
-        pass
-    return embed_url
+        # Step 1: Get main embed page
+        resp1 = session.get(embed_url, headers=headers, timeout=8)
+        if resp1.status_code != 200:
+            return embed_url
+            
+        soup1 = BeautifulSoup(resp1.text, 'html.parser')
+        
+        # Step 2: Find iframe
+        iframe = soup1.find('iframe')
+        iframe_url = None
+        if iframe and iframe.get('src'):
+            iframe_url = iframe['src']
+            if iframe_url.startswith('//'):
+                iframe_url = 'https:' + iframe_url
+            elif iframe_url.startswith('/'):
+                iframe_url = f"https://{embed_url.split('/')[2]}{iframe_url}"
+        
+        # Fallback: look for external player URLs in HTML
+        if not iframe_url:
+            ext_match = re.search(r'(https?://[^\s"\'<>]+(?:embed|player)[^\s"\'<>]*)', resp1.text, re.IGNORECASE)
+            if ext_match:
+                iframe_url = ext_match.group(1)
+                
+        if not iframe_url:
+            return embed_url
+            
+        # Step 3: Check if iframe URL has m3u8 as parameter (common in some providers)
+        parsed_url = urlparse(iframe_url)
+        query_params = parse_qs(parsed_url.query)
+        for key in ['m3u8', 'file', 'url', 'stream', 'src', 'source']:
+            if key in query_params:
+                potential_stream = unquote(query_params[key][0])
+                if '.m3u8' in potential_stream or '.mp4' in potential_stream:
+                    return potential_stream
+                    
+        if '.m3u8' in iframe_url:
+            return iframe_url
+            
+        # Step 4: Get iframe page
+        headers['Referer'] = embed_url
+        resp2 = session.get(iframe_url, headers=headers, timeout=8)
+        if resp2.status_code != 200:
+            return embed_url
+            
+        html2 = resp2.text
+        
+        # Step 5: Extract stream URL using patterns found in common players
+        patterns = [
+            r'const streamUrl\s*=\s*["\']([^"\']+)["\']',
+            r'file:\s*["\']([^"\']+)["\']',
+            r'source:\s*["\']([^"\']+)["\']',
+            r'<source[^>]+src=["\']([^"\']+)["\']',
+            r'video\.src\s*=\s*["\']([^"\']+)["\']',
+            r'["\'](https?://[^"\']+\.m3u8[^"\']*)["\']'
+        ]
+        
+        for pattern in patterns:
+            match = re.search(pattern, html2, re.IGNORECASE)
+            if match:
+                stream_url = match.group(1).replace('\/', '/').replace('\\', '')
+                if stream_url.startswith('http') and ('.m3u8' in stream_url or '.mp4' in stream_url):
+                    return stream_url
+                    
+        # Step 6: Check for nested iframe
+        soup2 = BeautifulSoup(html2, 'html.parser')
+        nested_iframe = soup2.find('iframe')
+        if nested_iframe and nested_iframe.get('src'):
+            nested_url = nested_iframe['src']
+            if nested_url.startswith('//'):
+                nested_url = 'https:' + nested_url
+            elif nested_url.startswith('/'):
+                nested_url = f"https://{iframe_url.split('/')[2]}{nested_url}"
+            # Recursion for nested iframes
+            return get_direct_stream_url(nested_url, session)
+            
+        return embed_url
+        
+    except Exception:
+        return embed_url
 
-def check_link_active(url):
-    """Verifica se o link retorna um status HTTP 200 OK com timeout curto."""
+def check_link_active(url, session):
+    """Verifica se o link responde com 200 OK."""
     headers = {
         'User-Agent': 'VLC/3.0.18 LibVLC/3.0.18',
         'Accept': '*/*',
         'Referer': 'https://reidoscanais.im/'
     }
     try:
-        # stream=True evita baixar o vídeo inteiro, pegando apenas os headers e alguns bytes
-        response = requests.get(url, headers=headers, timeout=5, stream=True)
+        response = session.get(url, headers=headers, timeout=5, stream=True)
         if response.status_code == 200:
             ct = response.headers.get('content-type', '').lower()
-            # Aceita tipos de conteúdo de vídeo, playlists ou HTML (embeds)
             if any(x in ct for x in ['video/', 'mpegurl', 'octet-stream', 'text/html']):
                 return True
         return False
-    except requests.exceptions.RequestException:
+    except:
         return False
 
 def main():
     state = load_state()
     now = datetime.now(timezone.utc).isoformat()
     
-    # 1. Buscar dados da API (se falhar, usa o estado anterior para não apagar a lista)
+    session = requests.Session()
+    
+    # 1. Fetch API
     api_channels = []
     try:
-        response = requests.get(API_URL, timeout=10)
+        response = session.get(API_URL, timeout=15)
         response.raise_for_status()
         data = response.json()
         api_channels = data.get('data', [])
-        print(f"Sucesso: {len(api_channels)} canais encontrados na API.")
+        print(f"✅ Sucesso: {len(api_channels)} canais encontrados na API.")
     except Exception as e:
-        print(f"Aviso: Erro ao buscar API ({e}). Mantendo estado anterior para verificação.")
+        print(f"⚠️ Aviso: Erro ao buscar API ({e}). Mantendo estado anterior.")
 
-    # 2. Atualizar estado com canais da API
+    # 2. Update state
     found_urls = set()
     for ch in api_channels:
         name = ch.get('name', 'Sem Nome').strip()
@@ -81,23 +155,20 @@ def main():
         if not embeds:
             continue
             
-        # Pega o primeiro embed disponível (geralmente o "Servidor Premium")
-        url = embeds[0].get('embed_url', '')
-        if not url:
+        embed_url = embeds[0].get('embed_url', '')
+        if not embed_url:
             continue
             
-        found_urls.add(url)
+        found_urls.add(embed_url)
         
-        if url in state['channels']:
-            # Canal já existe: reseta falhas pois foi confirmado na API
-            state['channels'][url]['failures'] = 0
-            state['channels'][url]['last_seen'] = now
-            state['channels'][url]['name'] = name
-            state['channels'][url]['category'] = category
-            state['channels'][url]['logo'] = logo
+        if embed_url in state['channels']:
+            state['channels'][embed_url]['failures'] = 0
+            state['channels'][embed_url]['last_seen'] = now
+            state['channels'][embed_url]['name'] = name
+            state['channels'][embed_url]['category'] = category
+            state['channels'][embed_url]['logo'] = logo
         else:
-            # Canal novo: adiciona com 0 falhas
-            state['channels'][url] = {
+            state['channels'][embed_url] = {
                 'name': name,
                 'category': category,
                 'logo': logo,
@@ -105,43 +176,52 @@ def main():
                 'last_seen': now
             }
 
-    # 3. Verificar atividade dos links e gerenciar remoção por inatividade
+    # 3. Check activity and manage failures
     channels_to_keep = {}
-    print("Testando atividade dos links...")
+    print("🔍 Testando atividade e extraindo links reais...")
     
-    for url, info in state['channels'].items():
-        # Se o canal sumiu da API, conta como falha
-        if url not in found_urls:
+    for embed_url, info in state['channels'].items():
+        if embed_url not in found_urls:
             info['failures'] += 1
             
-        # Teste ativo de conexão
-        is_active = check_link_active(url)
+        # Extract direct stream URL
+        direct_url = get_direct_stream_url(embed_url, session)
+        info['direct_url'] = direct_url
+            
+        # Check if the extracted direct URL is active
+        is_active = check_link_active(direct_url, session)
         if not is_active:
-            info['failures'] += 1
-            
-        # Só mantém se o número de falhas for menor que o limite (6 atualizações = 36h)
-        if info['failures'] < MAX_FAILURES:
-            channels_to_keep[url] = info
+            # If direct URL failed, check if the original embed URL is active
+            is_active = check_link_active(embed_url, session)
+            if not is_active:
+                info['failures'] += 1
+            else:
+                info['failures'] = 0
         else:
-            print(f"Removido após {MAX_FAILURES} falhas: {info['name']}")
+            info['failures'] = 0
+            
+        if info['failures'] < MAX_FAILURES:
+            channels_to_keep[embed_url] = info
+        else:
+            print(f"❌ Removido após {MAX_FAILURES} falhas: {info['name']}")
 
     state['channels'] = channels_to_keep
     save_state(state)
 
-    # 4. Gerar playlist M3U otimizada para SS IPTV
+    # 4. Generate M3U
     with open(PLAYLIST_FILE, 'w', encoding='utf-8') as f:
-        # Adiciona link EPG do Brasil para guias de programação no SS IPTV
         f.write('#EXTM3U url-tvg="https://raw.githubusercontent.com/iptv-org/epg/master/guides/br.guide.xml"\n')
         
-        for url, info in state['channels'].items():
-            # Limpa caracteres que podem quebrar o parser M3U
+        for embed_url, info in state['channels'].items():
             name = info['name'].replace(',', ' ').replace('"', "'")
             category = info['category'].replace(',', ' ').replace('"', "'")
             logo = info['logo']
             
-            # Tenta obter link direto, senão usa o embed
-            final_url = extract_direct_stream(url)
-            
+            # Use the extracted direct URL if available and valid, otherwise fallback to embed URL
+            final_url = info.get('direct_url', embed_url)
+            if not final_url or not final_url.startswith('http'):
+                final_url = embed_url
+                
             f.write(f'#EXTINF:-1 tvg-id="{name}" tvg-name="{name}" tvg-logo="{logo}" group-title="{category}",{name}\n')
             f.write(f'{final_url}\n')
 
