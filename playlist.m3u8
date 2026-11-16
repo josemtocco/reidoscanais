@@ -112,7 +112,7 @@ https://rdcanais.org/modoviagem
 #EXTINF:-1 tvg-id="Multishow" tvg-name="Multishow" tvg-logo="https://logocanais.pics/imagens/multishow.png" group-title="Entretenimento",Multishow
 https://rdcanais.org/multishow
 #EXTINF:-1 tvg-id="NSports" tvg-name="NSports" tvg-logo="https://logocanais.pics/imagens/nsports.png" group-title="Esportes",NSports
-https://localhost.tattoo/m3u8/player.html?m3u8=https://origin-fast.b-cdn.net/NSPORTS/index.m3u8
+https://origin-fast.b-cdn.net/NSPORTS/index.m3u8
 #EXTINF:-1 tvg-id="Paramount+" tvg-name="Paramount+" tvg-logo="https://logocanais.pics/imagens/paramountplus.png" group-title="Esportes",Paramount+
 https://rdcanais.org/paramountplus
 #EXTINF:-1 tvg-id="Paramount+ 2" tvg-name="Paramount+ 2" tvg-logo="https://logocanais.pics/imagens/paramountplus.png" group-title="Esportes",Paramount+ 2
@@ -140,13 +140,13 @@ https://rdcanais.org/premiere8
 #EXTINF:-1 tvg-id="Record" tvg-name="Record" tvg-logo="https://logocanais.pics/imagens/record.png" group-title="Canais Abertos",Record
 https://rdcanais.org/record
 #EXTINF:-1 tvg-id="Record News" tvg-name="Record News" tvg-logo="https://logocanais.pics/imagens/recordnews.png" group-title="Notícias",Record News
-https://localhost.tattoo/m3u8/player.html?m3u8=https://rnw-rn-soultv.otteravision.com/rnw/rn/rnw_rn.m3u8
+https://rnw-rn-soultv.otteravision.com/rnw/rn/rnw_rn.m3u8
 #EXTINF:-1 tvg-id="RedeTV!" tvg-name="RedeTV!" tvg-logo="https://logocanais.pics/imagens/redetv.png" group-title="Canais Abertos",RedeTV!
 https://rdcanais.org/redetv
 #EXTINF:-1 tvg-id="Sabor e Arte" tvg-name="Sabor e Arte" tvg-logo="https://logocanais.pics/imagens/saborearte.png" group-title="Canais Abertos",Sabor e Arte
 https://rdcanais.org/saborearte
 #EXTINF:-1 tvg-id="SBT" tvg-name="SBT" tvg-logo="https://logocanais.pics/imagens/sbt.png" group-title="Canais Abertos",SBT
-https://pqpstream.online/multi/player.html?m3u8=https://d1jvs4svzaqp8n.cloudfront.net/indexMobile.m3u8
+https://d1jvs4svzaqp8n.cloudfront.net/indexMobile.m3u8
 #EXTINF:-1 tvg-id="SBT News" tvg-name="SBT News" tvg-logo="https://logocanais.pics/imagens/sbtnews.png" group-title="Notícias",SBT News
 https://rdcanais.org/sbtnews
 #EXTINF:-1 tvg-id="Sony Channel" tvg-name="Sony Channel" tvg-logo="https://logocanais.pics/imagens/sonychannel.png" group-title="Filmes e Séries",Sony Channel
@@ -196,9 +196,9 @@ https://rdcanais.org/tooncast
 #EXTINF:-1 tvg-id="TV Aparecida" tvg-name="TV Aparecida" tvg-logo="https://logocanais.pics/imagens/aparecida.png" group-title="Canais Abertos",TV Aparecida
 https://rdcanais.org/aparecida
 #EXTINF:-1 tvg-id="TV Brasil" tvg-name="TV Brasil" tvg-logo="https://logocanais.pics/imagens/tvbrasil.png" group-title="Canais Abertos",TV Brasil
-https://rdcanais.org/tvbrasil
+https://cdnvipwaytv.multtv.tv.br:5443/OTKvnkLrpvUAIh537v56lQ/1795027705/TVBRASIL/video.m3u8
 #EXTINF:-1 tvg-id="TV Cultura" tvg-name="TV Cultura" tvg-logo="https://logocanais.pics/imagens/tvcultura.png" group-title="Canais Abertos",TV Cultura
-https://localhost.tattoo/m3u8/player.html?m3u8=https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
+https://rdcanais.org/tvcultura
 #EXTINF:-1 tvg-id="Universal TV" tvg-name="Universal TV" tvg-logo="https://logocanais.pics/imagens/universaltv.png" group-title="Filmes e Séries",Universal TV
 https://rdcanais.org/universaltv
 #EXTINF:-1 tvg-id="USA" tvg-name="USA" tvg-logo="https://logocanais.pics/imagens/usa.png" group-title="Filmes e Séries",USA
@@ -206,6 +206,6 @@ https://rdcanais.org/usa
 #EXTINF:-1 tvg-id="Warner TV" tvg-name="Warner TV" tvg-logo="https://logocanais.pics/imagens/warnertv.png" group-title="Filmes e Séries",Warner TV
 https://rdcanais.org/warnertv
 #EXTINF:-1 tvg-id="WooHoo" tvg-name="WooHoo" tvg-logo="https://logocanais.pics/imagens/woohoo.png" group-title="Entretenimento",WooHoo
-https://rdcanais.org/woohoo
+https://cdn-3.nxplay.com.br/WOOHOO_TK/index.m3u8
 #EXTINF:-1 tvg-id="XSports" tvg-name="XSports" tvg-logo="https://logocanais.pics/imagens/xsports.png" group-title="Esportes",XSports
 https://rdcanais.org/xsports
