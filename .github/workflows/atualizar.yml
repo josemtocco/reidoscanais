@@ -1,1 +1,68 @@
+name: Atualizar lista M3U (Rei dos Canais)
 
+on:
+  schedule:
+    - cron: "0 */6 * * *"     # a cada 6 horas
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: m3u-reidoscanais
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar ffmpeg e navegador de captura
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          python -m pip install --quiet playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Gerar lista e testar reproducao
+        run: python gerar_m3u.py
+
+      - name: Publicar (artefatos sempre regenerados, nunca mesclados)
+        run: |
+          set -e
+          git config user.name  "m3u-bot"
+          git config user.email "m3u-bot@users.noreply.github.com"
+
+          # guarda o resultado recem-gerado: ele e a unica versao valida
+          mkdir -p /tmp/novo
+          cp reidoscanais.m3u estado_canais.json relatorio.json /tmp/novo/
+
+          for i in 1 2 3 4 5; do
+            git rebase --abort 2>/dev/null || true
+            git merge  --abort 2>/dev/null || true
+            git fetch origin main
+            git reset --hard origin/main
+
+            cp /tmp/novo/reidoscanais.m3u /tmp/novo/estado_canais.json /tmp/novo/relatorio.json .
+            git add -- reidoscanais.m3u estado_canais.json relatorio.json
+
+            if git diff --cached --quiet; then
+              echo "sem mudancas nesta rodada"
+              exit 0
+            fi
+
+            git commit -m "Atualiza lista M3U ($(date -u +%Y-%m-%dT%H:%MZ))"
+            if git push origin HEAD:main; then
+              echo "publicado"
+              exit 0
+            fi
+            sleep $((i*5))
+          done
+          echo "falha ao publicar apos 5 tentativas"
+          exit 1
