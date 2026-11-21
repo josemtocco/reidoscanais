@@ -1,6 +1,6 @@
 {
- "quando": 1795204191,
- "duracao_seg": 851,
+ "quando": 1795242528,
+ "duracao_seg": 807,
  "resumo": {
   "tocando": 48,
   "quebrado": 57
@@ -13,7 +13,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/Jr66OIOkvxP_SLJdTVrD-YVne0Z6QF4sY9N68563F3s/1795225792/fd0ad2fb04449291/adultswim/index.m3u8"
+   "url": "https://livestream.st/live/secure/qbyo7z9B6M7W5sDTIyTwVo0YqW_f7np5slC84Lu0bGA/1795264130/fcb12398b37aefc8/adultswim/index.m3u8"
   },
   {
    "id": "ae",
@@ -22,7 +22,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/tKZ-c8OE7Htxfc96HRTn_x-TPBlgJ9OeWfPXhfIUQyY/1795225801/fd0ad2fb04449291/aee/index.m3u8"
+   "url": "https://livestream.st/live/secure/nNIqyUjRUdeLft3ohUe2PM3qW2AqS6zppWO4qqcD7WU/1795264138/fcb12398b37aefc8/aee/index.m3u8"
   },
   {
    "id": "agromais",
@@ -31,7 +31,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/w12kdiMRCS1IenlPq_Sn1UPjIH3GIQIWaLnzkvueP2Y/1795225809/fd0ad2fb04449291/agromais/index.m3u8"
+   "url": "https://livestream.st/live/secure/uR161lq5G4X5gyo29KNA_mqRsMtOjSCLoaf4mmfJeeg/1795264147/fcb12398b37aefc8/agromais/index.m3u8"
   },
   {
    "id": "amc",
@@ -40,7 +40,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/Daluv4aru4DLqiG_IGe1dWGkEAHmlWICGrhYzn0WwMg/1795225817/fd0ad2fb04449291/amc/index.m3u8"
+   "url": "https://livestream.st/live/secure/2iYdzEb6hf5mLa1lrFBh5nKQQ9ifig6LbV3lKRfI5IU/1795264155/fcb12398b37aefc8/amc/index.m3u8"
   },
   {
    "id": "animalplanet",
@@ -49,7 +49,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/j7hOAmLN82ps9XN5cOMzB5xCA-gzakSkaG0A1bo7L3M/1795225824/fd0ad2fb04449291/animalplanet/index.m3u8"
+   "url": "https://livestream.st/live/secure/zRaxHZZP8BLC6AV4YEioLLze4dX4dcfEU_rj9VtlsgM/1795264165/fcb12398b37aefc8/animalplanet/index.m3u8"
   },
   {
    "id": "arte1",
@@ -58,7 +58,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/5jjdaTD9jYwR4NeuP1uea-35UFwxTbaA2Dl8ta3kD2Q/1795225832/fd0ad2fb04449291/arte1/index.m3u8"
+   "url": "https://livestream.st/live/secure/l8s2cyzqIAxb4Lx6wFIbRDqUejErjZu8bLtnkj9vYVU/1795264173/fcb12398b37aefc8/arte1/index.m3u8"
   },
   {
    "id": "axn",
@@ -67,7 +67,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/lYRXNLPtFbq7y87r1eX17KrXB7v9BPxv1BR_nthEA24/1795225839/fd0ad2fb04449291/axn/index.m3u8"
+   "url": "https://livestream.st/live/secure/eY16Gvs1sx4PIqbWUOUpjKHEhCia1mEyCHwRvuNE-Bg/1795264181/fcb12398b37aefc8/axn/index.m3u8"
   },
   {
    "id": "band",
@@ -130,7 +130,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/NRUsUUh89wVaSTHJZ5tYoEau9IqTuNBxKDfpbn4PY7U/1795225881/fd0ad2fb04449291/cartoonnetwork/index.m3u8"
+   "url": "https://livestream.st/live/secure/dBj9RZIfQFGeP11qME7DrAsyzijYmIVNGp7FhA_eJwU/1795264221/fcb12398b37aefc8/cartoonnetwork/index.m3u8"
   },
   {
    "id": "cartoonito",
@@ -139,7 +139,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/gC2WQH88r8afuFKgMjcgE0PSfIhYAzIBewRlVBl7n5g/1795225888/fd0ad2fb04449291/cartoonito/index.m3u8"
+   "url": "https://livestream.st/live/secure/yT21FAZYtRetANhtFw8xUbdMkATj3oC3kxlkuciOM-M/1795264230/fcb12398b37aefc8/cartoonito/index.m3u8"
   },
   {
    "id": "cazetv",
@@ -175,7 +175,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/4O1QjLR6tozqwCJY76NwMkb8S3olXDlas5KG_-6TfzU/1795225909/fd0ad2fb04449291/cinemax/index.m3u8"
+   "url": "https://livestream.st/live/secure/ZSJnx_nV6hwWI-e3fNozTtZArSNbZzNnPnQJnwEQwwo/1795264249/fcb12398b37aefc8/cinemax/index.m3u8"
   },
   {
    "id": "cnnbrasil",
@@ -202,7 +202,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/ekojP3GL25d-EhpdPmX4pmi8-tHSUvsV84B1yjfJMo0/1795225929/fd0ad2fb04449291/curta/index.m3u8"
+   "url": "https://livestream.st/live/secure/82U7SMWcgJjnaGBnfIXisi4wxFcm2Tn6tUSuEPQJeDY/1795264268/fcb12398b37aefc8/curta/index.m3u8"
   },
   {
    "id": "discoverychannel",
@@ -211,7 +211,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/Vq4aOKUkgvsbNfh4hojc0E5eLyYWB8tqmo6X2GzUewY/1795225936/fd0ad2fb04449291/discoverychannel/index.m3u8"
+   "url": "https://livestream.st/live/secure/LQkLGvE5GShWcPb_pMjc0vi2eierPjX-g-ZNizRpH74/1795264276/fcb12398b37aefc8/discoverychannel/index.m3u8"
   },
   {
    "id": "discoveryheh",
@@ -220,7 +220,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/7LnGOng4vkeDZlVP6a7NZkBohvh1P_OwyN1edlaXwJ4/1795225944/fd0ad2fb04449291/discoveryhh/index.m3u8"
+   "url": "https://livestream.st/live/secure/ydssObl2l2e0ZnAAciYnzbEN621cxefSzn2fPLiBfiE/1795264284/fcb12398b37aefc8/discoveryhh/index.m3u8"
   },
   {
    "id": "discoveryid",
@@ -229,7 +229,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/MaN0Mj4DLvO5zGkd4zLPg8bD2dM8Uu9YmbZQHXUQJv0/1795225951/fd0ad2fb04449291/discoveryid/index.m3u8"
+   "url": "https://livestream.st/live/secure/1tqpEvEoX5xoD_oPuqlYEQ__7j_092W-N1LvtECxAo0/1795264292/fcb12398b37aefc8/discoveryid/index.m3u8"
   },
   {
    "id": "discoverykids",
@@ -238,7 +238,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/nbZOVq5SnwglKm9WVVrb1zsUyMcjaweErNVYokaQf_U/1795225958/fd0ad2fb04449291/discoverykids/index.m3u8"
+   "url": "https://livestream.st/live/secure/1CpHRmKzftP4oGg1X5cGAI6H9TK0zJNnqITsR-uiORQ/1795264299/fcb12398b37aefc8/discoverykids/index.m3u8"
   },
   {
    "id": "discoveryscience",
@@ -247,7 +247,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/JkNfNDwZrNnqpqrb_6UKfcOtPI49LQ6-IsmcVirqMZY/1795225965/fd0ad2fb04449291/discoveryscience/index.m3u8"
+   "url": "https://livestream.st/live/secure/phcb2wPX9A59NU7bmLC4EZ4IV2OicULh0xo5P5k_4qk/1795264307/fcb12398b37aefc8/discoveryscience/index.m3u8"
   },
   {
    "id": "discoverytheater",
@@ -256,7 +256,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/N7ZzbLLTxR513xfWFTIVmHQ2SrS1whn4HW0lM4zDJSo/1795225972/fd0ad2fb04449291/discoverytheater/index.m3u8"
+   "url": "https://livestream.st/live/secure/P2GA1ih7y71vnchkR2j7bhOLcdAWYXeCKQJ243WQbl8/1795264315/fcb12398b37aefc8/discoverytheater/index.m3u8"
   },
   {
    "id": "discoveryturbo",
@@ -265,7 +265,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/nyJY_-vS2hfyPldChZnlhvxYYOlkosbM4zSUnoOEuDk/1795225980/fd0ad2fb04449291/discoveryturbo/index.m3u8"
+   "url": "https://livestream.st/live/secure/ZAa48dg6mBfb9szhoQVYeGuEJRBrOEmwtLmmW3C6WEM/1795264322/fcb12398b37aefc8/discoveryturbo/index.m3u8"
   },
   {
    "id": "discoveryworld",
@@ -274,7 +274,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/T4EqhBIn8AjqCCQhRS_OZsVIa5l8yUx8o0cuX6lsvsU/1795225987/fd0ad2fb04449291/discoveryworld/index.m3u8"
+   "url": "https://livestream.st/live/secure/jEEOU2xbAqWIn4k0HYE909Sxs4d4gZ5Eol6ppMHf-M8/1795264329/fcb12398b37aefc8/discoveryworld/index.m3u8"
   },
   {
    "id": "e",
@@ -283,7 +283,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/3oLb20r4ep9e5wJY32MQIJbHtfIxphrasT45Bk_-FII/1795225994/fd0ad2fb04449291/e/index.m3u8"
+   "url": "https://livestream.st/live/secure/voWEb5tiHTHIcYFycRrToUcG6ZinmdsQS5Q0EOS1WkI/1795264337/fcb12398b37aefc8/e/index.m3u8"
   },
   {
    "id": "fashiontv",
@@ -292,7 +292,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/6LX9T_9sTlqhUqxbVyPalsUGQDvGpkG2nLMh1lFotzw/1795226003/fd0ad2fb04449291/fashiontv/index.m3u8"
+   "url": "https://livestream.st/live/secure/PDM2-J5qFJU8JrA-7OHW4a787ErLsUiXGsqZrjem88Y/1795264344/fcb12398b37aefc8/fashiontv/index.m3u8"
   },
   {
    "id": "fishtv",
@@ -310,7 +310,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/bzTM06CvQ9OOxSWKjWMJf7byMraR6tRnuHVyJqX4Uho/1795226025/fd0ad2fb04449291/foodnetwork/index.m3u8"
+   "url": "https://livestream.st/live/secure/H0Ylxj2CL4OiXSz16YGA4U0bG_sIA7G9B9nofwaqaUc/1795264366/fcb12398b37aefc8/foodnetwork/index.m3u8"
   },
   {
    "id": "futura",
@@ -382,7 +382,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/Qg2OX55I2w3-ZLB07GzaMt_32lJmFYaUM7UIdDFwwwA/1795226163/fd0ad2fb04449291/hbo/index.m3u8"
+   "url": "https://livestream.st/live/secure/fs7R9ozv3loI-ANYBA1KjbL6btGIrgKX97xpKckTrHg/1795264496/fcb12398b37aefc8/hbo/index.m3u8"
   },
   {
    "id": "hbo2",
@@ -391,7 +391,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/b21UfNJaZk0O8LdqJSmFpV9iaJCWIeYAxRG77oYVjgo/1795226170/fd0ad2fb04449291/hbo2/index.m3u8"
+   "url": "https://livestream.st/live/secure/yHnc2dOm4TW4hYjef9KkiXC0Uli6qoeMYCPM_llNLTI/1795264505/fcb12398b37aefc8/hbo2/index.m3u8"
   },
   {
    "id": "hbofamily",
@@ -400,7 +400,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/h0_S92iUjYdEAxthCdCjbUQCL7YG6Sc9ATeC_obucxQ/1795226178/fd0ad2fb04449291/hbofamily/index.m3u8"
+   "url": "https://livestream.st/live/secure/Dpbxt8PLa9PqD4j5opZU_Fp-lx5Am5J1vTryqxi_HNI/1795264513/fcb12398b37aefc8/hbofamily/index.m3u8"
   },
   {
    "id": "hbopop",
@@ -418,7 +418,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/vBqIbR1xQuTA5k7V1KMBksFOBPDpO1J3XlZCNjmR22o/1795226191/fd0ad2fb04449291/hbosignature/index.m3u8"
+   "url": "https://livestream.st/live/secure/iR0yq1O0SvsT-xRVnK3596VSKpnzUyOdJDDGFzdlDxk/1795264528/fcb12398b37aefc8/hbosignature/index.m3u8"
   },
   {
    "id": "hboxtreme",
@@ -427,7 +427,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/NnWRteMmcR0ij3HDRymTTN0z1i1xdOMgfg5I002OUjs/1795226201/fd0ad2fb04449291/hboxtreme/index.m3u8"
+   "url": "https://livestream.st/live/secure/Urpm9tXj0mlZiFdK72jBGrdmycY5J3cKAUOiBSALlNw/1795264536/fcb12398b37aefc8/hboxtreme/index.m3u8"
   },
   {
    "id": "hboplus",
@@ -436,7 +436,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/J8h03PMf-rb-Ttb__mSllbASLbYbxpw3w_eE-lnLD2w/1795226210/fd0ad2fb04449291/hboplus/index.m3u8"
+   "url": "https://livestream.st/live/secure/dNrbadB7WEJc1s8bP6CjOsRzHlbJrge_566NL1hTjIs/1795264544/fcb12398b37aefc8/hboplus/index.m3u8"
   },
   {
    "id": "hgtv",
@@ -445,7 +445,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/rueru_ltcNDk8UmH_UEb-aClLGbqZ9xzPKINca-yxr4/1795226217/fd0ad2fb04449291/hgtv/index.m3u8"
+   "url": "https://livestream.st/live/secure/vXpf4u-d3tX3A9baLPKPjFhDTZNwQY4laoJIWnNlfJc/1795264552/fcb12398b37aefc8/hgtv/index.m3u8"
   },
   {
    "id": "history",
@@ -454,7 +454,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/tLT2uNGTt9qzAGLvlQ27L7Fxh19BG8SDdbepsBZmS9c/1795226226/fd0ad2fb04449291/history/index.m3u8"
+   "url": "https://livestream.st/live/secure/wfqOmwb9v-paHqIWNIu6lY5QI7kbscs7gYPo4aoTF5o/1795264559/fcb12398b37aefc8/history/index.m3u8"
   },
   {
    "id": "history2",
@@ -463,7 +463,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/vcXSJYYnL8cxS6Tg3bN188oMeaZg-aFltFFjfs2AFeQ/1795226234/fd0ad2fb04449291/history2/index.m3u8"
+   "url": "https://livestream.st/live/secure/5izIHMf4AgGOHVbX7sI_3FYIIbqPccsDeEzYosOyNYM/1795264567/fcb12398b37aefc8/history2/index.m3u8"
   },
   {
    "id": "jpnews",
@@ -481,7 +481,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/_dMIJa3QorYZP-kb52oU3YyjgzwUbNknufJ3VMNn8qM/1795226274/fd0ad2fb04449291/lifetime/index.m3u8"
+   "url": "https://livestream.st/live/secure/RUT4tPg36n_jp0S4CLttUjq5IY2fN23jieEoy586k5I/1795264588/fcb12398b37aefc8/lifetime/index.m3u8"
   },
   {
    "id": "megapix",
@@ -633,7 +633,7 @@
    "categoria": "Canais Abertos",
    "status": "quebrado",
    "motivo": "sem quadro de video",
-   "falhas": 4,
+   "falhas": 5,
    "url": ""
   },
   {
@@ -652,7 +652,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/OrptEvsNOr43byc74QU5gUnIN-IempxkMMc8tA6pgvs/1795226398/fd0ad2fb04449291/redetv/index.m3u8"
+   "url": "https://livestream.st/live/secure/KdvOI6ba5CpjyAFalbchdFfzASNioVpoQDx0S1D2u7E/1795264710/fcb12398b37aefc8/redetv/index.m3u8"
   },
   {
    "id": "saborearte",
@@ -661,7 +661,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/2_q15qwlmeEqhE9Ow4nyJH4yN2Iwggdo_hGdiTRJMZE/1795226415/fd0ad2fb04449291/saborearte/index.m3u8"
+   "url": "https://livestream.st/live/secure/RGHb27jiNLmoHRzftRLdM5TPZpRvkvje3feORJJrZuQ/1795264718/fcb12398b37aefc8/saborearte/index.m3u8"
   },
   {
    "id": "sbt",
@@ -688,7 +688,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/FhPHpBf-KshxlwzIvb0UffD3XUbmj19dmUuGJdGn-_w/1795226444/fd0ad2fb04449291/sonychannel/index.m3u8"
+   "url": "https://livestream.st/live/secure/lVH4L36l9MqtG_9hpTWNXUuWf6-SuypTO3EEaHRBpdQ/1795264734/fcb12398b37aefc8/sonychannel/index.m3u8"
   },
   {
    "id": "sonymovies",
@@ -697,7 +697,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/UBUDtXuJhd33UpdvNoTkNv-llM0EVHsDws9GdpB4whU/1795226451/fd0ad2fb04449291/sonymovies/index.m3u8"
+   "url": "https://livestream.st/live/secure/-lZCKb30WJPC62GETeYwLgw4ijIBtH7ad-DFm1pyE60/1795264742/fcb12398b37aefc8/sonymovies/index.m3u8"
   },
   {
    "id": "space",
@@ -787,7 +787,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/DEdMW7-LC9_FOwp296GgIbscf7Niq-FjskP1sZKmiz0/1795226519/fd0ad2fb04449291/telecineaction/index.m3u8"
+   "url": "https://livestream.st/live/secure/haLu5ot2Eeu0jc10ElrEFJmIopAb4aMQ-LwSDKyQSBQ/1795264811/fcb12398b37aefc8/telecineaction/index.m3u8"
   },
   {
    "id": "telecinecult",
@@ -796,7 +796,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/_7ONDNJJXVYi1ufFC7hSUivfr6Q5vPggTTXtWecpVZw/1795226526/fd0ad2fb04449291/telecinecult/index.m3u8"
+   "url": "https://livestream.st/live/secure/acBhTs9eo1_9DzP3QPxtSKjzebfiQN3DslWP7dmsU-I/1795264819/fcb12398b37aefc8/telecinecult/index.m3u8"
   },
   {
    "id": "telecinefun",
@@ -805,7 +805,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/3QDL16LsPKOzHbCESxhihdXFhZA7DJqOeOUGWU4dlw4/1795226535/fd0ad2fb04449291/telecinefun/index.m3u8"
+   "url": "https://livestream.st/live/secure/Ti9HNRjx0Rr9Ge5hngQ7KoP_si9HF3RkVjT9_BXAfE8/1795264827/fcb12398b37aefc8/telecinefun/index.m3u8"
   },
   {
    "id": "telecinepipoca",
@@ -814,7 +814,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/rjCCWYUAyYn8w4Vr4AR714_IHYFS-XYIpvfxamjifM4/1795226543/fd0ad2fb04449291/telecinepipoca/index.m3u8"
+   "url": "https://livestream.st/live/secure/w6goXgB7qRzIeByS2RT7C1zKVU2jFYNwkvIUiX8aRNs/1795264835/fcb12398b37aefc8/telecinepipoca/index.m3u8"
   },
   {
    "id": "telecinepremium",
@@ -823,7 +823,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/PXVyZLD1Y9LzJRFPF_c6rzZDcteSN_rjOrrfCkXanvQ/1795226551/fd0ad2fb04449291/telecinepremium/index.m3u8"
+   "url": "https://livestream.st/live/secure/PXRN736ciPVow3-ubrFrwVPo-tMQ8pOfq4ayEzgXY_w/1795264842/fcb12398b37aefc8/telecinepremium/index.m3u8"
   },
   {
    "id": "telecinetouch",
@@ -832,7 +832,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/dY8weZAumELMToeQzeVuy_MtXISIX0MsYLrN6EH6f1o/1795226559/fd0ad2fb04449291/telecinetouch/index.m3u8"
+   "url": "https://livestream.st/live/secure/Lq-BPzm4QdFAf7iwjDT9vh2c1v_-HQIMKYXD7g1SsXw/1795264850/fcb12398b37aefc8/telecinetouch/index.m3u8"
   },
   {
    "id": "tlc",
@@ -841,7 +841,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/43p0D2Uk71WjeyybsHqx2t3IdvjF6Av973236c9GEhQ/1795226567/fd0ad2fb04449291/tlc/index.m3u8"
+   "url": "https://livestream.st/live/secure/SlqhgtulTmx5JptO6dKBKkMUrsEoHUis_W3Try8hDY0/1795264858/fcb12398b37aefc8/tlc/index.m3u8"
   },
   {
    "id": "tnt",
@@ -859,7 +859,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/q0KyRE4ECteruI22DdmAEoSzEItLpNhfqU7o7QgdM40/1795226579/fd0ad2fb04449291/tntnovelas/index.m3u8"
+   "url": "https://livestream.st/live/secure/1rCsBX13vFjM35pEFOYFChmoSJzypHeVotOGyhEsfcg/1795264869/fcb12398b37aefc8/tntnovelas/index.m3u8"
   },
   {
    "id": "tntseries",
@@ -868,7 +868,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/Z_AFWBQqRz-k4FrbmXfqLxJO7wFRZEO1ibd_vltk_44/1795226587/fd0ad2fb04449291/tntseries/index.m3u8"
+   "url": "https://livestream.st/live/secure/9QCrIbuYOAjK1VGc0pa6qOXuXZ3P-b97T3h0qQUUulU/1795264877/fcb12398b37aefc8/tntseries/index.m3u8"
   },
   {
    "id": "tooncast",
@@ -877,7 +877,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/zayb7oVcMOMJ3c22mDpoklLOBpJ9hKRImipWBkpYNfQ/1795226595/fd0ad2fb04449291/tooncast/index.m3u8"
+   "url": "https://livestream.st/live/secure/b4eBtVoDoQUYeVcxjRMALlIt9xqKSyVBH3BR1Haf-Ck/1795264885/fcb12398b37aefc8/tooncast/index.m3u8"
   },
   {
    "id": "aparecida",
@@ -886,7 +886,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/gLDcLGY9XMlflt0W5tyc2MG79q5PblHNEkRArIccWaI/1795226603/fd0ad2fb04449291/aparecida/index.m3u8"
+   "url": "https://livestream.st/live/secure/T6cVOBALVYZ_rVGcOcpDvL3bnYURx_QDhuPcTvl_pGM/1795264893/fcb12398b37aefc8/aparecida/index.m3u8"
   },
   {
    "id": "tvbrasil",
@@ -931,7 +931,7 @@
    "status": "tocando",
    "motivo": "quadro de video decodificado",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/FLx1fIcfQ1zqSUYG3vND0eboRjXmnLkkuHmbrZvBW-k/1795226625/fd0ad2fb04449291/warnertv/index.m3u8"
+   "url": "https://livestream.st/live/secure/Pn3EGGcK2VhBjXLLd5XutyGsJCT7vtTvFZt3LllC-6E/1795264916/fcb12398b37aefc8/warnertv/index.m3u8"
   },
   {
    "id": "woohoo",
