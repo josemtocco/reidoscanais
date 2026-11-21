@@ -1,27 +1,16 @@
 {
- "ultima_atualizacao": 1795242528,
- "total_site": 105,
+ "ultima_atualizacao": 1795287358,
+ "total_site": 109,
  "canais": [
-  {
-   "id": "record",
-   "nome": "Record",
-   "categoria": "Canais Abertos",
-   "logo": "https://logocanais.pics/imagens/record.png",
-   "url": "https://livestream.st/live/secure/odrnRNDDiheYp_VBRDCr9GBXu0cA2QYhbNY_AiFvocA/1795055356/c8b573afd7c7377c/record/index.m3u8",
-   "falhas": 5,
-   "primeiro_visto": 1794999084,
-   "visto": 1795242528,
-   "status": "quebrado"
-  },
   {
    "id": "redetv",
    "nome": "RedeTV!",
    "categoria": "Canais Abertos",
    "logo": "https://logocanais.pics/imagens/redetv.png",
-   "url": "https://livestream.st/live/secure/KdvOI6ba5CpjyAFalbchdFfzASNioVpoQDx0S1D2u7E/1795264710/fcb12398b37aefc8/redetv/index.m3u8",
+   "url": "https://livestream.st/live/secure/Q4_IRTWCZTH5ix4HvePXjGG0GGQLOhtTvrdz84xGT94/1795309551/0eeee2b4a4a6d512/redetv/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -29,10 +18,10 @@
    "nome": "Sabor e Arte",
    "categoria": "Canais Abertos",
    "logo": "https://logocanais.pics/imagens/saborearte.png",
-   "url": "https://livestream.st/live/secure/RGHb27jiNLmoHRzftRLdM5TPZpRvkvje3feORJJrZuQ/1795264718/fcb12398b37aefc8/saborearte/index.m3u8",
+   "url": "https://livestream.st/live/secure/Cf7ZssI9Wr9Gbxyckj3adCN2bvg4aiw1UmHd1svl7nI/1795309559/0eeee2b4a4a6d512/saborearte/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -40,10 +29,10 @@
    "nome": "TV Aparecida",
    "categoria": "Canais Abertos",
    "logo": "https://logocanais.pics/imagens/aparecida.png",
-   "url": "https://livestream.st/live/secure/T6cVOBALVYZ_rVGcOcpDvL3bnYURx_QDhuPcTvl_pGM/1795264893/fcb12398b37aefc8/aparecida/index.m3u8",
+   "url": "https://livestream.st/live/secure/4zISdgRQ2sMIwavyPVekhx8ndfg3so6B-mmu0mB8fuE/1795309766/0eeee2b4a4a6d512/aparecida/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -52,20 +41,20 @@
    "categoria": "Documentários",
    "logo": "https://logocanais.pics/imagens/animalplanet.png",
    "url": "https://livestream.st/live/secure/zRaxHZZP8BLC6AV4YEioLLze4dX4dcfEU_rj9VtlsgM/1795264165/fcb12398b37aefc8/animalplanet/index.m3u8",
-   "falhas": 0,
+   "falhas": 1,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
-   "status": "tocando"
+   "visto": 1795287358,
+   "status": "quebrado"
   },
   {
    "id": "discoverychannel",
    "nome": "Discovery Channel",
    "categoria": "Documentários",
    "logo": "https://logocanais.pics/imagens/discoverychannel.webp",
-   "url": "https://livestream.st/live/secure/LQkLGvE5GShWcPb_pMjc0vi2eierPjX-g-ZNizRpH74/1795264276/fcb12398b37aefc8/discoverychannel/index.m3u8",
+   "url": "https://livestream.st/live/secure/BkRALvTT2pnoEpQvtdFysBBtI7D3MG6es5qJQvRp1TY/1795309066/0eeee2b4a4a6d512/discoverychannel/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -73,10 +62,10 @@
    "nome": "Discovery Science",
    "categoria": "Documentários",
    "logo": "https://logocanais.pics/imagens/discoveryscience.webp",
-   "url": "https://livestream.st/live/secure/phcb2wPX9A59NU7bmLC4EZ4IV2OicULh0xo5P5k_4qk/1795264307/fcb12398b37aefc8/discoveryscience/index.m3u8",
+   "url": "https://livestream.st/live/secure/KEsHk-Z3mF9o8z8acDTVO2kfaM_UwAGRzKiOmYw8ASw/1795309101/0eeee2b4a4a6d512/discoveryscience/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -84,10 +73,10 @@
    "nome": "Discovery Theater",
    "categoria": "Documentários",
    "logo": "https://logocanais.pics/imagens/discoverytheater.png",
-   "url": "https://livestream.st/live/secure/P2GA1ih7y71vnchkR2j7bhOLcdAWYXeCKQJ243WQbl8/1795264315/fcb12398b37aefc8/discoverytheater/index.m3u8",
+   "url": "https://livestream.st/live/secure/jyWiX_0wFyaQbqcb9ulQItr58r5sWHvFADClhHrWFr4/1795309109/0eeee2b4a4a6d512/discoverytheater/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -95,10 +84,10 @@
    "nome": "Discovery Turbo",
    "categoria": "Documentários",
    "logo": "https://logocanais.pics/imagens/discoveryturbo.png",
-   "url": "https://livestream.st/live/secure/ZAa48dg6mBfb9szhoQVYeGuEJRBrOEmwtLmmW3C6WEM/1795264322/fcb12398b37aefc8/discoveryturbo/index.m3u8",
+   "url": "https://livestream.st/live/secure/oZmlUFonty46MY0SPYeH3sju-w2UMj64AyLAejn1WHQ/1795309116/0eeee2b4a4a6d512/discoveryturbo/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -106,10 +95,10 @@
    "nome": "Discovery World",
    "categoria": "Documentários",
    "logo": "https://logocanais.pics/imagens/discoveryworld.png",
-   "url": "https://livestream.st/live/secure/jEEOU2xbAqWIn4k0HYE909Sxs4d4gZ5Eol6ppMHf-M8/1795264329/fcb12398b37aefc8/discoveryworld/index.m3u8",
+   "url": "https://livestream.st/live/secure/0ttdcvy2aAjL1gsx1hoqfjQKOwC0FG_uOJCGW49B00M/1795309124/0eeee2b4a4a6d512/discoveryworld/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -117,10 +106,10 @@
    "nome": "History",
    "categoria": "Documentários",
    "logo": "https://logocanais.pics/imagens/history.webp",
-   "url": "https://livestream.st/live/secure/wfqOmwb9v-paHqIWNIu6lY5QI7kbscs7gYPo4aoTF5o/1795264559/fcb12398b37aefc8/history/index.m3u8",
+   "url": "https://livestream.st/live/secure/PuOEf5dwHAP6C5OPpeFIrVqtdfjuPXlksi5yrTXkGkE/1795309391/0eeee2b4a4a6d512/history/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -128,10 +117,10 @@
    "nome": "History 2",
    "categoria": "Documentários",
    "logo": "https://logocanais.pics/imagens/history2.png",
-   "url": "https://livestream.st/live/secure/5izIHMf4AgGOHVbX7sI_3FYIIbqPccsDeEzYosOyNYM/1795264567/fcb12398b37aefc8/history2/index.m3u8",
+   "url": "https://livestream.st/live/secure/gfXfRf9yCm2aaYvTb27SMVZqUYX7zEKk6m6vxO_u10o/1795309400/0eeee2b4a4a6d512/history2/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -139,10 +128,10 @@
    "nome": "Adult Swim",
    "categoria": "Entretenimento",
    "logo": "https://logocanais.pics/imagens/adultswim.png",
-   "url": "https://livestream.st/live/secure/qbyo7z9B6M7W5sDTIyTwVo0YqW_f7np5slC84Lu0bGA/1795264130/fcb12398b37aefc8/adultswim/index.m3u8",
+   "url": "https://livestream.st/live/secure/DpLKR62UhlTEAbo1izQoNkCplW6D99uHA2jTmpiu-fI/1795308960/0eeee2b4a4a6d512/adultswim/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -151,10 +140,10 @@
    "categoria": "Entretenimento",
    "logo": "https://logocanais.pics/imagens/ae.png",
    "url": "https://livestream.st/live/secure/nNIqyUjRUdeLft3ohUe2PM3qW2AqS6zppWO4qqcD7WU/1795264138/fcb12398b37aefc8/aee/index.m3u8",
-   "falhas": 0,
+   "falhas": 1,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
-   "status": "tocando"
+   "visto": 1795287358,
+   "status": "quebrado"
   },
   {
    "id": "arte1",
@@ -162,10 +151,10 @@
    "categoria": "Entretenimento",
    "logo": "https://logocanais.pics/imagens/arte1.png",
    "url": "https://livestream.st/live/secure/l8s2cyzqIAxb4Lx6wFIbRDqUejErjZu8bLtnkj9vYVU/1795264173/fcb12398b37aefc8/arte1/index.m3u8",
-   "falhas": 0,
+   "falhas": 1,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
-   "status": "tocando"
+   "visto": 1795287358,
+   "status": "quebrado"
   },
   {
    "id": "curta",
@@ -173,20 +162,20 @@
    "categoria": "Entretenimento",
    "logo": "https://logocanais.pics/imagens/curta.png",
    "url": "https://livestream.st/live/secure/82U7SMWcgJjnaGBnfIXisi4wxFcm2Tn6tUSuEPQJeDY/1795264268/fcb12398b37aefc8/curta/index.m3u8",
-   "falhas": 0,
+   "falhas": 1,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
-   "status": "tocando"
+   "visto": 1795287358,
+   "status": "quebrado"
   },
   {
    "id": "discoveryheh",
    "nome": "Discovery Home e Health",
    "categoria": "Entretenimento",
    "logo": "https://logocanais.pics/imagens/discoveryheh.webp",
-   "url": "https://livestream.st/live/secure/ydssObl2l2e0ZnAAciYnzbEN621cxefSzn2fPLiBfiE/1795264284/fcb12398b37aefc8/discoveryhh/index.m3u8",
+   "url": "https://livestream.st/live/secure/k9Zb9eb1lpPEWXfynNcRzOykzUP3Y8A9LkRlJf-uzMo/1795309074/0eeee2b4a4a6d512/discoveryhh/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -194,10 +183,10 @@
    "nome": "E!",
    "categoria": "Entretenimento",
    "logo": "https://logocanais.pics/imagens/e.png",
-   "url": "https://livestream.st/live/secure/voWEb5tiHTHIcYFycRrToUcG6ZinmdsQS5Q0EOS1WkI/1795264337/fcb12398b37aefc8/e/index.m3u8",
+   "url": "https://livestream.st/live/secure/3DWYh8B62OJFOiU0P4V7iWlGvT2myZpeCJMo5eQex10/1795309131/0eeee2b4a4a6d512/e/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -205,10 +194,10 @@
    "nome": "Fashion TV",
    "categoria": "Entretenimento",
    "logo": "https://logocanais.pics/imagens/fashiontv.png",
-   "url": "https://livestream.st/live/secure/PDM2-J5qFJU8JrA-7OHW4a787ErLsUiXGsqZrjem88Y/1795264344/fcb12398b37aefc8/fashiontv/index.m3u8",
+   "url": "https://livestream.st/live/secure/GK6UdSADpSE030Xo7VLVudEBCPHcWr07HeliGeaxsz0/1795309179/0eeee2b4a4a6d512/fashiontv/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -216,10 +205,10 @@
    "nome": "Food Network",
    "categoria": "Entretenimento",
    "logo": "https://logocanais.pics/imagens/foodnetwork.png",
-   "url": "https://livestream.st/live/secure/H0Ylxj2CL4OiXSz16YGA4U0bG_sIA7G9B9nofwaqaUc/1795264366/fcb12398b37aefc8/foodnetwork/index.m3u8",
+   "url": "https://livestream.st/live/secure/bssLnaIRnryy2FxLOZ2PAWcf42LPpu3E2U8IfjIdVEo/1795309201/0eeee2b4a4a6d512/foodnetwork/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -227,10 +216,10 @@
    "nome": "HGTV",
    "categoria": "Entretenimento",
    "logo": "https://logocanais.pics/imagens/hgtv.png",
-   "url": "https://livestream.st/live/secure/vXpf4u-d3tX3A9baLPKPjFhDTZNwQY4laoJIWnNlfJc/1795264552/fcb12398b37aefc8/hgtv/index.m3u8",
+   "url": "https://livestream.st/live/secure/14eii_TASRwingcQ-v6oeoIkxFFKKG057sczi0PxxOg/1795309383/0eeee2b4a4a6d512/hgtv/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -238,10 +227,32 @@
    "nome": "TLC",
    "categoria": "Entretenimento",
    "logo": "https://logocanais.pics/imagens/tlc.png",
-   "url": "https://livestream.st/live/secure/SlqhgtulTmx5JptO6dKBKkMUrsEoHUis_W3Try8hDY0/1795264858/fcb12398b37aefc8/tlc/index.m3u8",
+   "url": "https://livestream.st/live/secure/sd5GAwfY2jk6c0YqFuJqbuwZTbWd1keRmMqOuYPr16k/1795309733/0eeee2b4a4a6d512/tlc/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
+   "status": "tocando"
+  },
+  {
+   "id": "paramountplus2",
+   "nome": "Paramount+ 2",
+   "categoria": "Esportes",
+   "logo": "https://logocanais.pics/imagens/paramountplus.png",
+   "url": "https://livestream.st/live/secure/eAqSXGf0eY3MevRuNgIOaL8hSBhOYQumDfVoiovxHiY/1795309451/0eeee2b4a4a6d512/paramountplus/index.m3u8",
+   "falhas": 0,
+   "primeiro_visto": 1795287358,
+   "visto": 1795287358,
+   "status": "tocando"
+  },
+  {
+   "id": "paramountplus3",
+   "nome": "Paramount+ 3",
+   "categoria": "Esportes",
+   "logo": "https://logocanais.pics/imagens/paramountplus.png",
+   "url": "https://livestream.st/live/secure/JgZmUx4_WHk2S9LvRMsrrkk8DWqY8ZER14cH9JScCc4/1795309457/0eeee2b4a4a6d512/paramountplus/index.m3u8",
+   "falhas": 0,
+   "primeiro_visto": 1795287358,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -249,10 +260,10 @@
    "nome": "AMC",
    "categoria": "Filmes e Séries",
    "logo": "https://logocanais.pics/imagens/amc.png",
-   "url": "https://livestream.st/live/secure/2iYdzEb6hf5mLa1lrFBh5nKQQ9ifig6LbV3lKRfI5IU/1795264155/fcb12398b37aefc8/amc/index.m3u8",
+   "url": "https://livestream.st/live/secure/LbX0yFL6bUAMVXsJ0MPKCR4Ygp1gNX5PGfQMKxNKEus/1795308978/0eeee2b4a4a6d512/amc/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -261,10 +272,10 @@
    "categoria": "Filmes e Séries",
    "logo": "https://logocanais.pics/imagens/axn.png",
    "url": "https://livestream.st/live/secure/eY16Gvs1sx4PIqbWUOUpjKHEhCia1mEyCHwRvuNE-Bg/1795264181/fcb12398b37aefc8/axn/index.m3u8",
-   "falhas": 0,
+   "falhas": 1,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
-   "status": "tocando"
+   "visto": 1795287358,
+   "status": "quebrado"
   },
   {
    "id": "cinemax",
@@ -272,20 +283,20 @@
    "categoria": "Filmes e Séries",
    "logo": "https://logocanais.pics/imagens/cinemax.png",
    "url": "https://livestream.st/live/secure/ZSJnx_nV6hwWI-e3fNozTtZArSNbZzNnPnQJnwEQwwo/1795264249/fcb12398b37aefc8/cinemax/index.m3u8",
-   "falhas": 0,
+   "falhas": 1,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
-   "status": "tocando"
+   "visto": 1795287358,
+   "status": "quebrado"
   },
   {
    "id": "discoveryid",
    "nome": "Discovery ID",
    "categoria": "Filmes e Séries",
    "logo": "https://logocanais.pics/imagens/discoveryid.png",
-   "url": "https://livestream.st/live/secure/1tqpEvEoX5xoD_oPuqlYEQ__7j_092W-N1LvtECxAo0/1795264292/fcb12398b37aefc8/discoveryid/index.m3u8",
+   "url": "https://livestream.st/live/secure/PZf_KzL1G08QjqJkf0N39AAlp9-S62eJizwRhjrh3T4/1795309087/0eeee2b4a4a6d512/discoveryid/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -293,10 +304,10 @@
    "nome": "HBO",
    "categoria": "Filmes e Séries",
    "logo": "https://logocanais.pics/imagens/hbo.png",
-   "url": "https://livestream.st/live/secure/fs7R9ozv3loI-ANYBA1KjbL6btGIrgKX97xpKckTrHg/1795264496/fcb12398b37aefc8/hbo/index.m3u8",
+   "url": "https://livestream.st/live/secure/yjg0mVlkF0Sg7OINgVjzw2cnjay9T1gJhdfR70ic5DU/1795309335/0eeee2b4a4a6d512/hbo/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -305,20 +316,20 @@
    "categoria": "Filmes e Séries",
    "logo": "https://logocanais.pics/imagens/hbo2.png",
    "url": "https://livestream.st/live/secure/yHnc2dOm4TW4hYjef9KkiXC0Uli6qoeMYCPM_llNLTI/1795264505/fcb12398b37aefc8/hbo2/index.m3u8",
-   "falhas": 0,
+   "falhas": 1,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
-   "status": "tocando"
+   "visto": 1795287358,
+   "status": "quebrado"
   },
   {
    "id": "hbofamily",
    "nome": "HBO Family",
    "categoria": "Filmes e Séries",
    "logo": "https://logocanais.pics/imagens/hbofamily.png",
-   "url": "https://livestream.st/live/secure/Dpbxt8PLa9PqD4j5opZU_Fp-lx5Am5J1vTryqxi_HNI/1795264513/fcb12398b37aefc8/hbofamily/index.m3u8",
+   "url": "https://livestream.st/live/secure/yu9lL_L1e8OQgM_ZWO6uDV4GpYj8c72vULkEHxm-Ph4/1795309346/0eeee2b4a4a6d512/hbofamily/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -326,10 +337,10 @@
    "nome": "HBO Signature",
    "categoria": "Filmes e Séries",
    "logo": "https://logocanais.pics/imagens/hbosignature.png",
-   "url": "https://livestream.st/live/secure/iR0yq1O0SvsT-xRVnK3596VSKpnzUyOdJDDGFzdlDxk/1795264528/fcb12398b37aefc8/hbosignature/index.m3u8",
+   "url": "https://livestream.st/live/secure/cyMJCUcmOZP28YZWEdE9T9Lk_f1LXj0G9RLwxc6OFwo/1795309359/0eeee2b4a4a6d512/hbosignature/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -337,10 +348,10 @@
    "nome": "HBO Xtreme",
    "categoria": "Filmes e Séries",
    "logo": "https://logocanais.pics/imagens/hboxtreme.png",
-   "url": "https://livestream.st/live/secure/Urpm9tXj0mlZiFdK72jBGrdmycY5J3cKAUOiBSALlNw/1795264536/fcb12398b37aefc8/hboxtreme/index.m3u8",
+   "url": "https://livestream.st/live/secure/8hzFhYneLX4NEXTuNNADDTRGEUHEBQohc3_qp17ipbA/1795309366/0eeee2b4a4a6d512/hboxtreme/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -348,10 +359,10 @@
    "nome": "HBO+",
    "categoria": "Filmes e Séries",
    "logo": "https://logocanais.pics/imagens/hboplus.png",
-   "url": "https://livestream.st/live/secure/dNrbadB7WEJc1s8bP6CjOsRzHlbJrge_566NL1hTjIs/1795264544/fcb12398b37aefc8/hboplus/index.m3u8",
+   "url": "https://livestream.st/live/secure/9L-rC-pZmG9vq_k14lIVeJCm4XZMjWyhtU-qlOytpeg/1795309375/0eeee2b4a4a6d512/hboplus/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -359,10 +370,10 @@
    "nome": "Lifetime",
    "categoria": "Filmes e Séries",
    "logo": "https://logocanais.pics/imagens/lifetime.png",
-   "url": "https://livestream.st/live/secure/RUT4tPg36n_jp0S4CLttUjq5IY2fN23jieEoy586k5I/1795264588/fcb12398b37aefc8/lifetime/index.m3u8",
+   "url": "https://livestream.st/live/secure/UeyWBMu1WBeE3geBvgQNu3kVzbMW9V2R7FKzRpgoTnY/1795309422/0eeee2b4a4a6d512/lifetime/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -370,10 +381,10 @@
    "nome": "Sony Channel",
    "categoria": "Filmes e Séries",
    "logo": "https://logocanais.pics/imagens/sonychannel.png",
-   "url": "https://livestream.st/live/secure/lVH4L36l9MqtG_9hpTWNXUuWf6-SuypTO3EEaHRBpdQ/1795264734/fcb12398b37aefc8/sonychannel/index.m3u8",
+   "url": "https://livestream.st/live/secure/Cq8HEk28xCmegFlq5y445nzpO--4hyy0TFkw1PKL_A4/1795309573/0eeee2b4a4a6d512/sonychannel/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -381,10 +392,10 @@
    "nome": "Sony Movies",
    "categoria": "Filmes e Séries",
    "logo": "https://logocanais.pics/imagens/sonymovies.png",
-   "url": "https://livestream.st/live/secure/-lZCKb30WJPC62GETeYwLgw4ijIBtH7ad-DFm1pyE60/1795264742/fcb12398b37aefc8/sonymovies/index.m3u8",
+   "url": "https://livestream.st/live/secure/QDSzAx5HdxSNtts-dFpkWrxWyMYKKQCw5ci0du_1Lb4/1795309607/0eeee2b4a4a6d512/sonymovies/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -392,10 +403,10 @@
    "nome": "Telecine Action",
    "categoria": "Filmes e Séries",
    "logo": "https://logocanais.pics/imagens/telecineaction.png",
-   "url": "https://livestream.st/live/secure/haLu5ot2Eeu0jc10ElrEFJmIopAb4aMQ-LwSDKyQSBQ/1795264811/fcb12398b37aefc8/telecineaction/index.m3u8",
+   "url": "https://livestream.st/live/secure/Lsx8-dbpS44uRguQE3YbenG7LPXPD8vV47sxl480wKY/1795309672/0eeee2b4a4a6d512/telecineaction/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -403,10 +414,10 @@
    "nome": "Telecine Cult",
    "categoria": "Filmes e Séries",
    "logo": "https://logocanais.pics/imagens/telecinecult.png",
-   "url": "https://livestream.st/live/secure/acBhTs9eo1_9DzP3QPxtSKjzebfiQN3DslWP7dmsU-I/1795264819/fcb12398b37aefc8/telecinecult/index.m3u8",
+   "url": "https://livestream.st/live/secure/9_kUCi4UdcNFB7Y_EE0Tl__RFi-M0-N9AACU5wBKTTc/1795309680/0eeee2b4a4a6d512/telecinecult/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -415,20 +426,20 @@
    "categoria": "Filmes e Séries",
    "logo": "https://logocanais.pics/imagens/telecinefun.png",
    "url": "https://livestream.st/live/secure/Ti9HNRjx0Rr9Ge5hngQ7KoP_si9HF3RkVjT9_BXAfE8/1795264827/fcb12398b37aefc8/telecinefun/index.m3u8",
-   "falhas": 0,
+   "falhas": 1,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
-   "status": "tocando"
+   "visto": 1795287358,
+   "status": "quebrado"
   },
   {
    "id": "telecinepipoca",
    "nome": "Telecine Pipoca",
    "categoria": "Filmes e Séries",
    "logo": "https://logocanais.pics/imagens/telecinepipoca.png",
-   "url": "https://livestream.st/live/secure/w6goXgB7qRzIeByS2RT7C1zKVU2jFYNwkvIUiX8aRNs/1795264835/fcb12398b37aefc8/telecinepipoca/index.m3u8",
+   "url": "https://livestream.st/live/secure/VDnoF2EUF-U0DfbY72_kz7ynbsgJ0z858om9l3ZyqQ0/1795309702/0eeee2b4a4a6d512/telecinepipoca/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -437,20 +448,20 @@
    "categoria": "Filmes e Séries",
    "logo": "https://logocanais.pics/imagens/telecinepremium.png",
    "url": "https://livestream.st/live/secure/PXRN736ciPVow3-ubrFrwVPo-tMQ8pOfq4ayEzgXY_w/1795264842/fcb12398b37aefc8/telecinepremium/index.m3u8",
-   "falhas": 0,
+   "falhas": 1,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
-   "status": "tocando"
+   "visto": 1795287358,
+   "status": "quebrado"
   },
   {
    "id": "telecinetouch",
    "nome": "Telecine Touch",
    "categoria": "Filmes e Séries",
    "logo": "https://logocanais.pics/imagens/telecinetouch.png",
-   "url": "https://livestream.st/live/secure/Lq-BPzm4QdFAf7iwjDT9vh2c1v_-HQIMKYXD7g1SsXw/1795264850/fcb12398b37aefc8/telecinetouch/index.m3u8",
+   "url": "https://livestream.st/live/secure/FAwzsLV3ogKaocPHBd6dF6Oex4S8gwM5y7JUYOCyKwM/1795309725/0eeee2b4a4a6d512/telecinetouch/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -458,10 +469,10 @@
    "nome": "TNT Novelas",
    "categoria": "Filmes e Séries",
    "logo": "https://logocanais.pics/imagens/tntnovelas.png",
-   "url": "https://livestream.st/live/secure/1rCsBX13vFjM35pEFOYFChmoSJzypHeVotOGyhEsfcg/1795264869/fcb12398b37aefc8/tntnovelas/index.m3u8",
+   "url": "https://livestream.st/live/secure/IS4tO90lJevVzBWdPr6MJp8m37m2mwdqmiGJnPpx-Is/1795309745/0eeee2b4a4a6d512/tntnovelas/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -469,10 +480,10 @@
    "nome": "TNT Séries",
    "categoria": "Filmes e Séries",
    "logo": "https://logocanais.pics/imagens/tntseries.png",
-   "url": "https://livestream.st/live/secure/9QCrIbuYOAjK1VGc0pa6qOXuXZ3P-b97T3h0qQUUulU/1795264877/fcb12398b37aefc8/tntseries/index.m3u8",
+   "url": "https://livestream.st/live/secure/DVm8RdJDw4pKgqIFc7TVAjwr0lIOXWkgN-1_5CX0D34/1795309752/0eeee2b4a4a6d512/tntseries/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -480,10 +491,10 @@
    "nome": "Warner TV",
    "categoria": "Filmes e Séries",
    "logo": "https://logocanais.pics/imagens/warnertv.png",
-   "url": "https://livestream.st/live/secure/Pn3EGGcK2VhBjXLLd5XutyGsJCT7vtTvFZt3LllC-6E/1795264916/fcb12398b37aefc8/warnertv/index.m3u8",
+   "url": "https://livestream.st/live/secure/DC55pn8_A3ikWR4LImK1iI_09NLLr6UL82ZwjPzn7s8/1795309788/0eeee2b4a4a6d512/warnertv/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -491,10 +502,10 @@
    "nome": "Cartoon Network",
    "categoria": "Infantil",
    "logo": "https://logocanais.pics/imagens/cartoonnetwork.png",
-   "url": "https://livestream.st/live/secure/dBj9RZIfQFGeP11qME7DrAsyzijYmIVNGp7FhA_eJwU/1795264221/fcb12398b37aefc8/cartoonnetwork/index.m3u8",
+   "url": "https://livestream.st/live/secure/sMkAiuMpNeXDtad95CciCQqsOa64DEgvjYF4q0Pg1FQ/1795309021/0eeee2b4a4a6d512/cartoonnetwork/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -502,10 +513,10 @@
    "nome": "Cartoonito",
    "categoria": "Infantil",
    "logo": "https://logocanais.pics/imagens/cartoonito.png",
-   "url": "https://livestream.st/live/secure/yT21FAZYtRetANhtFw8xUbdMkATj3oC3kxlkuciOM-M/1795264230/fcb12398b37aefc8/cartoonito/index.m3u8",
+   "url": "https://livestream.st/live/secure/vG9EyrNQ9HSvw5l2BTueat6xWxxvUZ2Rla3HDSYuQE0/1795309029/0eeee2b4a4a6d512/cartoonito/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -513,10 +524,10 @@
    "nome": "Discovery Kids",
    "categoria": "Infantil",
    "logo": "https://logocanais.pics/imagens/discoverykids.png",
-   "url": "https://livestream.st/live/secure/1CpHRmKzftP4oGg1X5cGAI6H9TK0zJNnqITsR-uiORQ/1795264299/fcb12398b37aefc8/discoverykids/index.m3u8",
+   "url": "https://livestream.st/live/secure/yMuot8b3oL0Fq8cymiQr1O8QCAV2lcmpcwmqWuo5MeQ/1795309094/0eeee2b4a4a6d512/discoverykids/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -524,10 +535,10 @@
    "nome": "Tooncast",
    "categoria": "Infantil",
    "logo": "https://logocanais.pics/imagens/tooncast.png",
-   "url": "https://livestream.st/live/secure/b4eBtVoDoQUYeVcxjRMALlIt9xqKSyVBH3BR1Haf-Ck/1795264885/fcb12398b37aefc8/tooncast/index.m3u8",
+   "url": "https://livestream.st/live/secure/zcgWAQm59u0Ec4Lj1tiuLZ-0tkGC9oPbC75vr32XMOI/1795309759/0eeee2b4a4a6d512/tooncast/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
+   "visto": 1795287358,
    "status": "tocando"
   },
   {
@@ -536,10 +547,10 @@
    "categoria": "Notícias",
    "logo": "https://logocanais.pics/imagens/agromais.png",
    "url": "https://livestream.st/live/secure/uR161lq5G4X5gyo29KNA_mqRsMtOjSCLoaf4mmfJeeg/1795264147/fcb12398b37aefc8/agromais/index.m3u8",
-   "falhas": 0,
+   "falhas": 1,
    "primeiro_visto": 1794999084,
-   "visto": 1795242528,
-   "status": "tocando"
+   "visto": 1795287358,
+   "status": "quebrado"
   }
  ]
 }
