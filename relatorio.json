@@ -1,17 +1,17 @@
 {
- "quando": 1795357668,
- "duracao_seg": 802,
+ "quando": 1795390062,
+ "duracao_seg": 639,
  "resumo": {
-  "quebrado": 64,
-  "tocando": 45
+  "inconclusivo": 10,
+  "quebrado": 99
  },
  "canais": [
   {
    "id": "adultswim",
    "nome": "Adult Swim",
    "categoria": "Entretenimento",
-   "status": "quebrado",
-   "motivo": "servidor respondeu 404",
+   "status": "inconclusivo",
+   "motivo": "rede: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)>",
    "falhas": 1,
    "url": ""
   },
@@ -19,8 +19,8 @@
    "id": "ae",
    "nome": "AE",
    "categoria": "Entretenimento",
-   "status": "quebrado",
-   "motivo": "servidor respondeu 404",
+   "status": "inconclusivo",
+   "motivo": "rede: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)>",
    "falhas": 1,
    "url": ""
   },
@@ -28,8 +28,8 @@
    "id": "agromais",
    "nome": "Agro+",
    "categoria": "Notícias",
-   "status": "quebrado",
-   "motivo": "servidor respondeu 404",
+   "status": "inconclusivo",
+   "motivo": "rede: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)>",
    "falhas": 1,
    "url": ""
   },
@@ -37,37 +37,37 @@
    "id": "amc",
    "nome": "AMC",
    "categoria": "Filmes e Séries",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
+   "status": "inconclusivo",
+   "motivo": "rede: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)>",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/yKKuiHJOfoGH7x9od_lYuH_blMLRaIPKPKjzBiqhnXE/1795379282/a8a9a8c0add8a048/amc/index.m3u8"
+   "url": ""
   },
   {
    "id": "animalplanet",
    "nome": "Animal Planet",
    "categoria": "Documentários",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
+   "status": "inconclusivo",
+   "motivo": "rede: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)>",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/SE2jUjkLcIGY1zux0E4RuAeow0J49G2e21HUDQQl9Tk/1795379291/a8a9a8c0add8a048/animalplanet/index.m3u8"
+   "url": ""
   },
   {
    "id": "arte1",
    "nome": "Arte1",
    "categoria": "Entretenimento",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
+   "status": "inconclusivo",
+   "motivo": "rede: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)>",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/_qcvJIjS6zjIPtp_Wf1vhgDpqGpbD-vq9UubnqMpDII/1795379298/a8a9a8c0add8a048/arte1/index.m3u8"
+   "url": ""
   },
   {
    "id": "axn",
    "nome": "AXN",
    "categoria": "Filmes e Séries",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
+   "status": "inconclusivo",
+   "motivo": "rede: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)>",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/FRw2DwJR-luaKNBx5hAseOwnlZou0fVIhnpsP-E0SBI/1795379306/a8a9a8c0add8a048/axn/index.m3u8"
+   "url": ""
   },
   {
    "id": "band",
@@ -91,9 +91,9 @@
    "id": "bandsports",
    "nome": "Band Sports",
    "categoria": "Esportes",
-   "status": "quebrado",
-   "motivo": "servidor respondeu 504",
-   "falhas": 1,
+   "status": "inconclusivo",
+   "motivo": "rede: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)>",
+   "falhas": 0,
    "url": ""
   },
   {
@@ -127,19 +127,19 @@
    "id": "cartoonnetwork",
    "nome": "Cartoon Network",
    "categoria": "Infantil",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
+   "status": "inconclusivo",
+   "motivo": "rede: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)>",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/WOzPIEIQNU8bNnz2yb0QokMx9SSUK4lNnc4O-RPHdqk/1795379346/a8a9a8c0add8a048/cartoonnetwork/index.m3u8"
+   "url": ""
   },
   {
    "id": "cartoonito",
    "nome": "Cartoonito",
    "categoria": "Infantil",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
+   "status": "inconclusivo",
+   "motivo": "rede: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)>",
    "falhas": 0,
-   "url": "https://livestream.st/live/secure/YDhQXl_dubTlKkiRwclFj0i0b7GFhSY-h_bT03lRlO4/1795379354/a8a9a8c0add8a048/cartoonito/index.m3u8"
+   "url": ""
   },
   {
    "id": "cazetv",
@@ -172,10 +172,10 @@
    "id": "cinemax",
    "nome": "Cinemax",
    "categoria": "Filmes e Séries",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/fMA0DLaBz1V2__DdBf2gw9axI7HucTUm9gkdQ5yhq1E/1795379372/a8a9a8c0add8a048/cinemax/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "cnnbrasil",
@@ -199,91 +199,91 @@
    "id": "curta",
    "nome": "Curta!",
    "categoria": "Entretenimento",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/LqH6p4MBQ9VJ5nL1-tQn_pIeTPdaXZCSmCjtjDHsJPE/1795379390/a8a9a8c0add8a048/curta/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "discoverychannel",
    "nome": "Discovery Channel",
    "categoria": "Documentários",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/OYBQqtgkK9u8HFM3zoIQAXfcOcvx8wgUdN3IeW3m4b8/1795379397/a8a9a8c0add8a048/discoverychannel/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "discoveryheh",
    "nome": "Discovery Home e Health",
    "categoria": "Entretenimento",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/QwyKPPfCbEQPNxVLOFxnd5muJQXp0DjNtSGrsZlfgT0/1795379404/a8a9a8c0add8a048/discoveryhh/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "discoveryid",
    "nome": "Discovery ID",
    "categoria": "Filmes e Séries",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/Js168vrHYvLsjnzbgjPAtrUgXwN51BaVVilckAwX4Sk/1795379412/a8a9a8c0add8a048/discoveryid/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "discoverykids",
    "nome": "Discovery Kids",
    "categoria": "Infantil",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/USiqPPWmU2E5TBsyzYCaFokTP92zX4CDjgMbvhBz03c/1795379418/a8a9a8c0add8a048/discoverykids/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "discoveryscience",
    "nome": "Discovery Science",
    "categoria": "Documentários",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/pGcIAH00kzHwf30R4MXfzbC2NP4s6p4RaS_UN9L5n8M/1795379425/a8a9a8c0add8a048/discoveryscience/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "discoverytheater",
    "nome": "Discovery Theater",
    "categoria": "Documentários",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/0pq-EvjvD_wuiJyGhFoyYY-KJcnMt_ju48sGYs7gebg/1795379432/a8a9a8c0add8a048/discoverytheater/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "discoveryturbo",
    "nome": "Discovery Turbo",
    "categoria": "Documentários",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/Ppk0DPELHUXjifmYH9vJu70cl3aGpypZKMNJrfrMzRU/1795379439/a8a9a8c0add8a048/discoveryturbo/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "discoveryworld",
    "nome": "Discovery World",
    "categoria": "Documentários",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/-m5LsXJkXighOuB03qdH1_JkHZwdTulgngTT9yW5Jv4/1795379446/a8a9a8c0add8a048/discoveryworld/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "e",
    "nome": "E!",
    "categoria": "Entretenimento",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/1gmhcCXnhly1LoS-vGFkfgTxkl83KVog_EQ_M2FeaWI/1795379453/a8a9a8c0add8a048/e/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "espn",
@@ -325,17 +325,17 @@
    "id": "fashiontv",
    "nome": "Fashion TV",
    "categoria": "Entretenimento",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/MC56QN7E7fbzielkKm8mqjXsyCoOY0kgfRKeXy5wBjI/1795379499/a8a9a8c0add8a048/fashiontv/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "fishtv",
    "nome": "Fish TV",
    "categoria": "Entretenimento",
    "status": "quebrado",
-   "motivo": "servidor respondeu 504",
+   "motivo": "servidor respondeu 503",
    "falhas": 1,
    "url": ""
   },
@@ -343,10 +343,10 @@
    "id": "foodnetwork",
    "nome": "Food Network",
    "categoria": "Entretenimento",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/rZCYqQEJgjyFuUnYlKL4knH5CCHvqizSULo6LITCo_E/1795379521/a8a9a8c0add8a048/foodnetwork/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "futura",
@@ -415,35 +415,35 @@
    "id": "hbo",
    "nome": "HBO",
    "categoria": "Filmes e Séries",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/7YYPO0kd4inKCiihT0QE7OHsusvpFco8WQWUhJDTsnI/1795379650/a8a9a8c0add8a048/hbo/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "hbo2",
    "nome": "HBO 2",
    "categoria": "Filmes e Séries",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/DLECZI7EOvSp2nxX0q9OEp0oDkePHCq1IGElW4Rn_Cc/1795379657/a8a9a8c0add8a048/hbo2/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "hbofamily",
    "nome": "HBO Family",
    "categoria": "Filmes e Séries",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/zp9V0x_v50ySoki_svVpCX2MUBW42L40VaiDV_g9IAY/1795379665/a8a9a8c0add8a048/hbofamily/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "hbopop",
    "nome": "HBO Pop",
    "categoria": "Filmes e Séries",
    "status": "quebrado",
-   "motivo": "sem quadro de video",
+   "motivo": "servidor respondeu 404",
    "falhas": 1,
    "url": ""
   },
@@ -451,62 +451,62 @@
    "id": "hbosignature",
    "nome": "HBO Signature",
    "categoria": "Filmes e Séries",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/YxjAyE91qUfU_h3VyLEnJaVsMu-CEA-xlKJlyN3sBiM/1795379678/a8a9a8c0add8a048/hbosignature/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "hboxtreme",
    "nome": "HBO Xtreme",
    "categoria": "Filmes e Séries",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/moscJHMrhWT5X3xdDPEcs550jVC53xtcOJDPT9MJlzc/1795379686/a8a9a8c0add8a048/hboxtreme/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "hboplus",
    "nome": "HBO+",
    "categoria": "Filmes e Séries",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/6LUWTwk5kpzNODs78wrIvE1yaIZQ6mCfwiNv_0SmohI/1795379693/a8a9a8c0add8a048/hboplus/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "hgtv",
    "nome": "HGTV",
    "categoria": "Entretenimento",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/8dojQzQqof4FSFSGEb3kKentXehskHsDG_rOI9_Q1p8/1795379700/a8a9a8c0add8a048/hgtv/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "history",
    "nome": "History",
    "categoria": "Documentários",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/TRz46gBTwLAwKE2Qw5pZW9_9GUBgLoWyUlGUJLCvSEg/1795379707/a8a9a8c0add8a048/history/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "history2",
    "nome": "History 2",
    "categoria": "Documentários",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/b__VsM9hSia6chFvbwh6v0T6sx6cSNjHyqCez_kRr6E/1795379714/a8a9a8c0add8a048/history2/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "jpnews",
    "nome": "JP News",
    "categoria": "Notícias",
    "status": "quebrado",
-   "motivo": "servidor respondeu 504",
+   "motivo": "servidor respondeu 503",
    "falhas": 1,
    "url": ""
   },
@@ -514,10 +514,10 @@
    "id": "lifetime",
    "nome": "Lifetime",
    "categoria": "Filmes e Séries",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/bafumzJsgUbRAOyUhP-Bxg8z4H1KuoAScKZSWVsWTfs/1795379737/a8a9a8c0add8a048/lifetime/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "megapix",
@@ -569,8 +569,8 @@
    "nome": "Paramount+ 2",
    "categoria": "Esportes",
    "status": "quebrado",
-   "motivo": "servidor respondeu 404",
-   "falhas": 2,
+   "motivo": "servidor respondeu 503",
+   "falhas": 3,
    "url": ""
   },
   {
@@ -578,8 +578,8 @@
    "nome": "Paramount+ 3",
    "categoria": "Esportes",
    "status": "quebrado",
-   "motivo": "servidor respondeu 404",
-   "falhas": 2,
+   "motivo": "servidor respondeu 503",
+   "falhas": 3,
    "url": ""
   },
   {
@@ -685,19 +685,19 @@
    "id": "redetv",
    "nome": "RedeTV!",
    "categoria": "Canais Abertos",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/brHHlCXnHlzuDE9s6uzVNT-Rbt6OjC-C2mStnks9qiE/1795379858/a8a9a8c0add8a048/redetv/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "saborearte",
    "nome": "Sabor e Arte",
    "categoria": "Canais Abertos",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/45gCqwQtXXsNtnY1sJTg2dhdeIwAQbeAR5EtVHk49M8/1795379866/a8a9a8c0add8a048/saborearte/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "sbt",
@@ -721,19 +721,19 @@
    "id": "sonychannel",
    "nome": "Sony Channel",
    "categoria": "Filmes e Séries",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/sFGFAzKfXy8L2qP5MnPKWXF_9OTsPl-l045RPZyyYFY/1795379881/a8a9a8c0add8a048/sonychannel/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "sonymovies",
    "nome": "Sony Movies",
    "categoria": "Filmes e Séries",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/GMiOkDFHzbRLwtUYvA8N7clvfD7Tcv32iB6pCZ0Edvw/1795379889/a8a9a8c0add8a048/sonymovies/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "space",
@@ -785,7 +785,7 @@
    "nome": "SportyNet+ 1",
    "categoria": "Esportes",
    "status": "quebrado",
-   "motivo": "sem quadro de video",
+   "motivo": "servidor respondeu 404",
    "falhas": 1,
    "url": ""
   },
@@ -794,7 +794,7 @@
    "nome": "SportyNet+ 2",
    "categoria": "Esportes",
    "status": "quebrado",
-   "motivo": "sem quadro de video",
+   "motivo": "servidor respondeu 404",
    "falhas": 1,
    "url": ""
   },
@@ -803,7 +803,7 @@
    "nome": "SportyNet+ 3",
    "categoria": "Esportes",
    "status": "quebrado",
-   "motivo": "sem quadro de video",
+   "motivo": "servidor respondeu 404",
    "falhas": 1,
    "url": ""
   },
@@ -820,64 +820,64 @@
    "id": "telecineaction",
    "nome": "Telecine Action",
    "categoria": "Filmes e Séries",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/WYOp7umSQ-m_jVeCwNVNF0ZX3Os8oWMWnKEo0TbU048/1795379953/a8a9a8c0add8a048/telecineaction/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "telecinecult",
    "nome": "Telecine Cult",
    "categoria": "Filmes e Séries",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/bfno_zXSy2Th9W-oSMWl_MHZROMxXAEgoxCjVJODpP8/1795379960/a8a9a8c0add8a048/telecinecult/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "telecinefun",
    "nome": "Telecine Fun",
    "categoria": "Filmes e Séries",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/izQdJ4N1UyyygvD8MOD2uhK_Km_vrYCpxBK2juRlndY/1795379968/a8a9a8c0add8a048/telecinefun/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "telecinepipoca",
    "nome": "Telecine Pipoca",
    "categoria": "Filmes e Séries",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/ZhBp3V_tC6XMvrMw_NBppnGBT4R0lC6fTf3ObvdEZXw/1795379976/a8a9a8c0add8a048/telecinepipoca/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "telecinepremium",
    "nome": "Telecine Premium",
    "categoria": "Filmes e Séries",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/SX2aCibNN5ABhqqxzsgDq1qhOvcA0l1FTitHGxuHS84/1795379984/a8a9a8c0add8a048/telecinepremium/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "telecinetouch",
    "nome": "Telecine Touch",
    "categoria": "Filmes e Séries",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/uzjpb50Zsbsv6dNi7ZuAp1KtdFPaaCVYFvZiuOFtlvg/1795379992/a8a9a8c0add8a048/telecinetouch/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "tlc",
    "nome": "TLC",
    "categoria": "Entretenimento",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/SmzmVtIyzaAnf8ILIzECU8cpen_YZeGWvv8KYH5g4Fs/1795380000/a8a9a8c0add8a048/tlc/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "tnt",
@@ -892,37 +892,37 @@
    "id": "tntnovelas",
    "nome": "TNT Novelas",
    "categoria": "Filmes e Séries",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/v8s1UCjdsVCcojhkbm46pxcPgSMXSlSzGrfdhtEzQrI/1795380011/a8a9a8c0add8a048/tntnovelas/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "tntseries",
    "nome": "TNT Séries",
    "categoria": "Filmes e Séries",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/uae2TjHJYXtxeNqx4_oCep-vJqHx3D8em1YiP0e7Ods/1795380018/a8a9a8c0add8a048/tntseries/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "tooncast",
    "nome": "Tooncast",
    "categoria": "Infantil",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/YHYHqR9zAuvmeE3GzUVxi5dLdIsAsr0WD1zT51Gktg0/1795380025/a8a9a8c0add8a048/tooncast/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "aparecida",
    "nome": "TV Aparecida",
    "categoria": "Canais Abertos",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/WF4MYp1LEngsBCnsPQmQgDza9P5Y-xex_vSGBj4uQLw/1795380032/a8a9a8c0add8a048/aparecida/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "tvbrasil",
@@ -964,10 +964,10 @@
    "id": "warnertv",
    "nome": "Warner TV",
    "categoria": "Filmes e Séries",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://livestream.st/live/secure/mKad_4cG9bBktLWaxGZXn3RT80dNT1-u5yj0S8qfJOM/1795380054/a8a9a8c0add8a048/warnertv/index.m3u8"
+   "status": "quebrado",
+   "motivo": "servidor respondeu 503",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "woohoo",
