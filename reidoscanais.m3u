@@ -99,3 +99,5 @@ https://livestream.st/live/secure/USiqPPWmU2E5TBsyzYCaFokTP92zX4CDjgMbvhBz03c/17
 https://livestream.st/live/secure/YHYHqR9zAuvmeE3GzUVxi5dLdIsAsr0WD1zT51Gktg0/1795380025/a8a9a8c0add8a048/tooncast/index.m3u8
 #EXTINF:-1 tvg-id="agromais" tvg-name="Agro+" tvg-logo="https://logocanais.pics/imagens/agromais.png" group-title="Notícias" content-type="video",Agro+
 https://livestream.st/live/secure/QIjDBupK24WotbqBwq-ETpCGhLOCpi0ae9KBtJW3nO8/1795348695/3f127256dbb18f5e/agromais/index.m3u8
+#EXTINF:-1 tvg-id="cnnbrasil" tvg-name="CNN Brasil" tvg-logo="https://logocanais.pics/imagens/cnnbrasil.png" group-title="Notícias" content-type="video",CNN Brasil
+https://origin-fast.b-cdn.net/CNN_BRASIL/index.m3u8

@@ -1,72 +1,72 @@
 {
- "quando": 1795390062,
- "duracao_seg": 639,
+ "quando": 1795416566,
+ "duracao_seg": 562,
  "resumo": {
-  "inconclusivo": 10,
-  "quebrado": 99
+  "quebrado": 108,
+  "tocando": 1
  },
  "canais": [
   {
    "id": "adultswim",
    "nome": "Adult Swim",
    "categoria": "Entretenimento",
-   "status": "inconclusivo",
-   "motivo": "rede: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)>",
-   "falhas": 1,
+   "status": "quebrado",
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
    "id": "ae",
    "nome": "AE",
    "categoria": "Entretenimento",
-   "status": "inconclusivo",
-   "motivo": "rede: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)>",
-   "falhas": 1,
+   "status": "quebrado",
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
    "id": "agromais",
    "nome": "Agro+",
    "categoria": "Notícias",
-   "status": "inconclusivo",
-   "motivo": "rede: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)>",
-   "falhas": 1,
+   "status": "quebrado",
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
    "id": "amc",
    "nome": "AMC",
    "categoria": "Filmes e Séries",
-   "status": "inconclusivo",
-   "motivo": "rede: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)>",
-   "falhas": 0,
+   "status": "quebrado",
+   "motivo": "sem quadro de video",
+   "falhas": 1,
    "url": ""
   },
   {
    "id": "animalplanet",
    "nome": "Animal Planet",
    "categoria": "Documentários",
-   "status": "inconclusivo",
-   "motivo": "rede: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)>",
-   "falhas": 0,
+   "status": "quebrado",
+   "motivo": "sem quadro de video",
+   "falhas": 1,
    "url": ""
   },
   {
    "id": "arte1",
    "nome": "Arte1",
    "categoria": "Entretenimento",
-   "status": "inconclusivo",
-   "motivo": "rede: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)>",
-   "falhas": 0,
+   "status": "quebrado",
+   "motivo": "sem quadro de video",
+   "falhas": 1,
    "url": ""
   },
   {
    "id": "axn",
    "nome": "AXN",
    "categoria": "Filmes e Séries",
-   "status": "inconclusivo",
-   "motivo": "rede: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)>",
-   "falhas": 0,
+   "status": "quebrado",
+   "motivo": "sem quadro de video",
+   "falhas": 1,
    "url": ""
   },
   {
@@ -91,9 +91,9 @@
    "id": "bandsports",
    "nome": "Band Sports",
    "categoria": "Esportes",
-   "status": "inconclusivo",
-   "motivo": "rede: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)>",
-   "falhas": 0,
+   "status": "quebrado",
+   "motivo": "sem quadro de video",
+   "falhas": 1,
    "url": ""
   },
   {
@@ -127,18 +127,18 @@
    "id": "cartoonnetwork",
    "nome": "Cartoon Network",
    "categoria": "Infantil",
-   "status": "inconclusivo",
-   "motivo": "rede: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)>",
-   "falhas": 0,
+   "status": "quebrado",
+   "motivo": "sem quadro de video",
+   "falhas": 1,
    "url": ""
   },
   {
    "id": "cartoonito",
    "nome": "Cartoonito",
    "categoria": "Infantil",
-   "status": "inconclusivo",
-   "motivo": "rede: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)>",
-   "falhas": 0,
+   "status": "quebrado",
+   "motivo": "sem quadro de video",
+   "falhas": 1,
    "url": ""
   },
   {
@@ -173,18 +173,18 @@
    "nome": "Cinemax",
    "categoria": "Filmes e Séries",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
    "id": "cnnbrasil",
    "nome": "CNN Brasil",
    "categoria": "Notícias",
-   "status": "quebrado",
-   "motivo": "o player nao entregou link de video",
-   "falhas": 1,
-   "url": ""
+   "status": "tocando",
+   "motivo": "quadro de video decodificado",
+   "falhas": 0,
+   "url": "https://origin-fast.b-cdn.net/CNN_BRASIL/index.m3u8"
   },
   {
    "id": "combate",
@@ -200,8 +200,8 @@
    "nome": "Curta!",
    "categoria": "Entretenimento",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -209,8 +209,8 @@
    "nome": "Discovery Channel",
    "categoria": "Documentários",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -218,8 +218,8 @@
    "nome": "Discovery Home e Health",
    "categoria": "Entretenimento",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -227,8 +227,8 @@
    "nome": "Discovery ID",
    "categoria": "Filmes e Séries",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -236,8 +236,8 @@
    "nome": "Discovery Kids",
    "categoria": "Infantil",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -245,8 +245,8 @@
    "nome": "Discovery Science",
    "categoria": "Documentários",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -254,8 +254,8 @@
    "nome": "Discovery Theater",
    "categoria": "Documentários",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -263,8 +263,8 @@
    "nome": "Discovery Turbo",
    "categoria": "Documentários",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -272,8 +272,8 @@
    "nome": "Discovery World",
    "categoria": "Documentários",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -281,8 +281,8 @@
    "nome": "E!",
    "categoria": "Entretenimento",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -326,8 +326,8 @@
    "nome": "Fashion TV",
    "categoria": "Entretenimento",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -335,7 +335,7 @@
    "nome": "Fish TV",
    "categoria": "Entretenimento",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
+   "motivo": "servidor respondeu 404",
    "falhas": 1,
    "url": ""
   },
@@ -344,8 +344,8 @@
    "nome": "Food Network",
    "categoria": "Entretenimento",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -362,7 +362,7 @@
    "nome": "Globo",
    "categoria": "Canais Abertos",
    "status": "quebrado",
-   "motivo": "o player nao entregou link de video",
+   "motivo": "sem quadro de video",
    "falhas": 1,
    "url": ""
   },
@@ -416,8 +416,8 @@
    "nome": "HBO",
    "categoria": "Filmes e Séries",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -425,8 +425,8 @@
    "nome": "HBO 2",
    "categoria": "Filmes e Séries",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -434,8 +434,8 @@
    "nome": "HBO Family",
    "categoria": "Filmes e Séries",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -452,8 +452,8 @@
    "nome": "HBO Signature",
    "categoria": "Filmes e Séries",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -461,8 +461,8 @@
    "nome": "HBO Xtreme",
    "categoria": "Filmes e Séries",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -470,8 +470,8 @@
    "nome": "HBO+",
    "categoria": "Filmes e Séries",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -479,8 +479,8 @@
    "nome": "HGTV",
    "categoria": "Entretenimento",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -488,8 +488,8 @@
    "nome": "History",
    "categoria": "Documentários",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -497,8 +497,8 @@
    "nome": "History 2",
    "categoria": "Documentários",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -506,7 +506,7 @@
    "nome": "JP News",
    "categoria": "Notícias",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
+   "motivo": "servidor respondeu 404",
    "falhas": 1,
    "url": ""
   },
@@ -515,8 +515,8 @@
    "nome": "Lifetime",
    "categoria": "Filmes e Séries",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -569,8 +569,8 @@
    "nome": "Paramount+ 2",
    "categoria": "Esportes",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 3,
+   "motivo": "servidor respondeu 404",
+   "falhas": 4,
    "url": ""
   },
   {
@@ -578,8 +578,8 @@
    "nome": "Paramount+ 3",
    "categoria": "Esportes",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 3,
+   "motivo": "servidor respondeu 404",
+   "falhas": 4,
    "url": ""
   },
   {
@@ -686,8 +686,8 @@
    "nome": "RedeTV!",
    "categoria": "Canais Abertos",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -695,8 +695,8 @@
    "nome": "Sabor e Arte",
    "categoria": "Canais Abertos",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -722,8 +722,8 @@
    "nome": "Sony Channel",
    "categoria": "Filmes e Séries",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -731,8 +731,8 @@
    "nome": "Sony Movies",
    "categoria": "Filmes e Séries",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -821,8 +821,8 @@
    "nome": "Telecine Action",
    "categoria": "Filmes e Séries",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -830,8 +830,8 @@
    "nome": "Telecine Cult",
    "categoria": "Filmes e Séries",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -839,8 +839,8 @@
    "nome": "Telecine Fun",
    "categoria": "Filmes e Séries",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -848,8 +848,8 @@
    "nome": "Telecine Pipoca",
    "categoria": "Filmes e Séries",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -857,8 +857,8 @@
    "nome": "Telecine Premium",
    "categoria": "Filmes e Séries",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -866,8 +866,8 @@
    "nome": "Telecine Touch",
    "categoria": "Filmes e Séries",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -875,8 +875,8 @@
    "nome": "TLC",
    "categoria": "Entretenimento",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -893,8 +893,8 @@
    "nome": "TNT Novelas",
    "categoria": "Filmes e Séries",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -902,8 +902,8 @@
    "nome": "TNT Séries",
    "categoria": "Filmes e Séries",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -911,8 +911,8 @@
    "nome": "Tooncast",
    "categoria": "Infantil",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -920,8 +920,8 @@
    "nome": "TV Aparecida",
    "categoria": "Canais Abertos",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
@@ -965,8 +965,8 @@
    "nome": "Warner TV",
    "categoria": "Filmes e Séries",
    "status": "quebrado",
-   "motivo": "servidor respondeu 503",
-   "falhas": 1,
+   "motivo": "sem quadro de video",
+   "falhas": 2,
    "url": ""
   },
   {
