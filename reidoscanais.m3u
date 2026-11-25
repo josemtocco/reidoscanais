@@ -1,15 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="animalplanet" tvg-name="Animal Planet" tvg-logo="https://logocanais.pics/imagens/animalplanet.png" group-title="Documentários" content-type="video",Animal Planet
-https://livestream.st/live/secure/SE2jUjkLcIGY1zux0E4RuAeow0J49G2e21HUDQQl9Tk/1795379291/a8a9a8c0add8a048/animalplanet/index.m3u8
-#EXTINF:-1 tvg-id="arte1" tvg-name="Arte1" tvg-logo="https://logocanais.pics/imagens/arte1.png" group-title="Entretenimento" content-type="video",Arte1
-https://livestream.st/live/secure/_qcvJIjS6zjIPtp_Wf1vhgDpqGpbD-vq9UubnqMpDII/1795379298/a8a9a8c0add8a048/arte1/index.m3u8
-#EXTINF:-1 tvg-id="amc" tvg-name="AMC" tvg-logo="https://logocanais.pics/imagens/amc.png" group-title="Filmes e Séries" content-type="video",AMC
-https://livestream.st/live/secure/yKKuiHJOfoGH7x9od_lYuH_blMLRaIPKPKjzBiqhnXE/1795379282/a8a9a8c0add8a048/amc/index.m3u8
-#EXTINF:-1 tvg-id="axn" tvg-name="AXN" tvg-logo="https://logocanais.pics/imagens/axn.png" group-title="Filmes e Séries" content-type="video",AXN
-https://livestream.st/live/secure/FRw2DwJR-luaKNBx5hAseOwnlZou0fVIhnpsP-E0SBI/1795379306/a8a9a8c0add8a048/axn/index.m3u8
-#EXTINF:-1 tvg-id="cartoonnetwork" tvg-name="Cartoon Network" tvg-logo="https://logocanais.pics/imagens/cartoonnetwork.png" group-title="Infantil" content-type="video",Cartoon Network
-https://livestream.st/live/secure/WOzPIEIQNU8bNnz2yb0QokMx9SSUK4lNnc4O-RPHdqk/1795379346/a8a9a8c0add8a048/cartoonnetwork/index.m3u8
-#EXTINF:-1 tvg-id="cartoonito" tvg-name="Cartoonito" tvg-logo="https://logocanais.pics/imagens/cartoonito.png" group-title="Infantil" content-type="video",Cartoonito
-https://livestream.st/live/secure/YDhQXl_dubTlKkiRwclFj0i0b7GFhSY-h_bT03lRlO4/1795379354/a8a9a8c0add8a048/cartoonito/index.m3u8
 #EXTINF:-1 tvg-id="cnnbrasil" tvg-name="CNN Brasil" tvg-logo="https://logocanais.pics/imagens/cnnbrasil.png" group-title="Notícias" content-type="video",CNN Brasil
 https://origin-fast.b-cdn.net/CNN_BRASIL/index.m3u8

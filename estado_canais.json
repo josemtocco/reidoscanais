@@ -1,73 +1,7 @@
 {
- "ultima_atualizacao": 1795593038,
+ "ultima_atualizacao": 1795641978,
  "total_site": 109,
  "canais": [
-  {
-   "id": "animalplanet",
-   "nome": "Animal Planet",
-   "categoria": "Documentários",
-   "logo": "https://logocanais.pics/imagens/animalplanet.png",
-   "url": "https://livestream.st/live/secure/SE2jUjkLcIGY1zux0E4RuAeow0J49G2e21HUDQQl9Tk/1795379291/a8a9a8c0add8a048/animalplanet/index.m3u8",
-   "falhas": 5,
-   "primeiro_visto": 1794999084,
-   "visto": 1795593038,
-   "status": "quebrado"
-  },
-  {
-   "id": "arte1",
-   "nome": "Arte1",
-   "categoria": "Entretenimento",
-   "logo": "https://logocanais.pics/imagens/arte1.png",
-   "url": "https://livestream.st/live/secure/_qcvJIjS6zjIPtp_Wf1vhgDpqGpbD-vq9UubnqMpDII/1795379298/a8a9a8c0add8a048/arte1/index.m3u8",
-   "falhas": 5,
-   "primeiro_visto": 1794999084,
-   "visto": 1795593038,
-   "status": "quebrado"
-  },
-  {
-   "id": "amc",
-   "nome": "AMC",
-   "categoria": "Filmes e Séries",
-   "logo": "https://logocanais.pics/imagens/amc.png",
-   "url": "https://livestream.st/live/secure/yKKuiHJOfoGH7x9od_lYuH_blMLRaIPKPKjzBiqhnXE/1795379282/a8a9a8c0add8a048/amc/index.m3u8",
-   "falhas": 5,
-   "primeiro_visto": 1794999084,
-   "visto": 1795593038,
-   "status": "quebrado"
-  },
-  {
-   "id": "axn",
-   "nome": "AXN",
-   "categoria": "Filmes e Séries",
-   "logo": "https://logocanais.pics/imagens/axn.png",
-   "url": "https://livestream.st/live/secure/FRw2DwJR-luaKNBx5hAseOwnlZou0fVIhnpsP-E0SBI/1795379306/a8a9a8c0add8a048/axn/index.m3u8",
-   "falhas": 5,
-   "primeiro_visto": 1794999084,
-   "visto": 1795593038,
-   "status": "quebrado"
-  },
-  {
-   "id": "cartoonnetwork",
-   "nome": "Cartoon Network",
-   "categoria": "Infantil",
-   "logo": "https://logocanais.pics/imagens/cartoonnetwork.png",
-   "url": "https://livestream.st/live/secure/WOzPIEIQNU8bNnz2yb0QokMx9SSUK4lNnc4O-RPHdqk/1795379346/a8a9a8c0add8a048/cartoonnetwork/index.m3u8",
-   "falhas": 5,
-   "primeiro_visto": 1794999084,
-   "visto": 1795593038,
-   "status": "quebrado"
-  },
-  {
-   "id": "cartoonito",
-   "nome": "Cartoonito",
-   "categoria": "Infantil",
-   "logo": "https://logocanais.pics/imagens/cartoonito.png",
-   "url": "https://livestream.st/live/secure/YDhQXl_dubTlKkiRwclFj0i0b7GFhSY-h_bT03lRlO4/1795379354/a8a9a8c0add8a048/cartoonito/index.m3u8",
-   "falhas": 5,
-   "primeiro_visto": 1794999084,
-   "visto": 1795593038,
-   "status": "quebrado"
-  },
   {
    "id": "cnnbrasil",
    "nome": "CNN Brasil",
@@ -76,7 +10,7 @@
    "url": "https://origin-fast.b-cdn.net/CNN_BRASIL/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1795416566,
-   "visto": 1795593038,
+   "visto": 1795641978,
    "status": "tocando"
   }
  ]
