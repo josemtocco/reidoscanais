@@ -1,3 +1,7 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="tvbrasil" tvg-name="TV Brasil" tvg-logo="https://logocanais.pics/imagens/tvbrasil.png" group-title="Canais Abertos" content-type="video",TV Brasil
+https://tvbrasil-stream.ebc.com.br/index.m3u8
+#EXTINF:-1 tvg-id="rit" tvg-name="RIT" tvg-logo="https://logocanais.pics/imagens/rit.png" group-title="Entretenimento" content-type="video",RIT
+https://stream.ecast.com.br/rit-tv/index.m3u8
 #EXTINF:-1 tvg-id="cnnbrasil" tvg-name="CNN Brasil" tvg-logo="https://logocanais.pics/imagens/cnnbrasil.png" group-title="Notícias" content-type="video",CNN Brasil
 https://origin-fast.b-cdn.net/CNN_BRASIL/index.m3u8

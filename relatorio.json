@@ -1,9 +1,9 @@
 {
- "quando": 1795678932,
- "duracao_seg": 565,
+ "quando": 1795727610,
+ "duracao_seg": 629,
  "resumo": {
-  "quebrado": 108,
-  "tocando": 1
+  "quebrado": 109,
+  "tocando": 3
  },
  "canais": [
   {
@@ -664,6 +664,15 @@
    "url": ""
   },
   {
+   "id": "rbtv",
+   "nome": "RBTV",
+   "categoria": "Canais Abertos",
+   "status": "quebrado",
+   "motivo": "o player nao entregou link de video",
+   "falhas": 1,
+   "url": ""
+  },
+  {
    "id": "record",
    "nome": "Record",
    "categoria": "Canais Abertos",
@@ -689,6 +698,15 @@
    "motivo": "sem quadro de video",
    "falhas": 1,
    "url": ""
+  },
+  {
+   "id": "rit",
+   "nome": "RIT",
+   "categoria": "Entretenimento",
+   "status": "tocando",
+   "motivo": "quadro de video decodificado",
+   "falhas": 0,
+   "url": "https://stream.ecast.com.br/rit-tv/index.m3u8"
   },
   {
    "id": "saborearte",
@@ -928,14 +946,23 @@
    "id": "tvbrasil",
    "nome": "TV Brasil",
    "categoria": "Canais Abertos",
+   "status": "tocando",
+   "motivo": "quadro de video decodificado",
+   "falhas": 0,
+   "url": "https://tvbrasil-stream.ebc.com.br/index.m3u8"
+  },
+  {
+   "id": "tvcultura",
+   "nome": "TV Cultura",
+   "categoria": "Canais Abertos",
    "status": "quebrado",
    "motivo": "o player nao entregou link de video",
    "falhas": 1,
    "url": ""
   },
   {
-   "id": "tvcultura",
-   "nome": "TV Cultura",
+   "id": "tvnovotempo",
+   "nome": "TV Novo Tempo",
    "categoria": "Canais Abertos",
    "status": "quebrado",
    "motivo": "o player nao entregou link de video",
