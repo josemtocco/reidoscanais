@@ -1,6 +1,6 @@
 {
- "quando": 1795641978,
- "duracao_seg": 589,
+ "quando": 1795678932,
+ "duracao_seg": 565,
  "resumo": {
   "quebrado": 108,
   "tocando": 1
@@ -39,7 +39,7 @@
    "categoria": "Filmes e Séries",
    "status": "quebrado",
    "motivo": "sem quadro de video",
-   "falhas": 6,
+   "falhas": 1,
    "url": ""
   },
   {
@@ -48,7 +48,7 @@
    "categoria": "Documentários",
    "status": "quebrado",
    "motivo": "sem quadro de video",
-   "falhas": 6,
+   "falhas": 1,
    "url": ""
   },
   {
@@ -57,7 +57,7 @@
    "categoria": "Entretenimento",
    "status": "quebrado",
    "motivo": "sem quadro de video",
-   "falhas": 6,
+   "falhas": 1,
    "url": ""
   },
   {
@@ -66,7 +66,7 @@
    "categoria": "Filmes e Séries",
    "status": "quebrado",
    "motivo": "sem quadro de video",
-   "falhas": 6,
+   "falhas": 1,
    "url": ""
   },
   {
@@ -129,7 +129,7 @@
    "categoria": "Infantil",
    "status": "quebrado",
    "motivo": "sem quadro de video",
-   "falhas": 6,
+   "falhas": 1,
    "url": ""
   },
   {
@@ -138,7 +138,7 @@
    "categoria": "Infantil",
    "status": "quebrado",
    "motivo": "sem quadro de video",
-   "falhas": 6,
+   "falhas": 1,
    "url": ""
   },
   {
