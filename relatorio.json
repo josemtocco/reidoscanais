@@ -1,9 +1,9 @@
 {
- "quando": 1795727610,
- "duracao_seg": 629,
+ "quando": 1795765269,
+ "duracao_seg": 637,
  "resumo": {
-  "quebrado": 109,
-  "tocando": 3
+  "quebrado": 110,
+  "tocando": 2
  },
  "canais": [
   {
@@ -946,10 +946,10 @@
    "id": "tvbrasil",
    "nome": "TV Brasil",
    "categoria": "Canais Abertos",
-   "status": "tocando",
-   "motivo": "quadro de video decodificado",
-   "falhas": 0,
-   "url": "https://tvbrasil-stream.ebc.com.br/index.m3u8"
+   "status": "quebrado",
+   "motivo": "sem quadro de video",
+   "falhas": 1,
+   "url": ""
   },
   {
    "id": "tvcultura",
