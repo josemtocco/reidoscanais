@@ -1,5 +1,5 @@
 {
- "ultima_atualizacao": 1795813006,
+ "ultima_atualizacao": 1795849719,
  "total_site": 112,
  "canais": [
   {
@@ -10,7 +10,7 @@
    "url": "https://tvbrasil-stream.ebc.com.br/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1795727610,
-   "visto": 1795813006,
+   "visto": 1795849719,
    "status": "tocando"
   },
   {
@@ -21,7 +21,7 @@
    "url": "https://stream.ecast.com.br/rit-tv/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1795727610,
-   "visto": 1795813006,
+   "visto": 1795849719,
    "status": "tocando"
   },
   {
@@ -32,7 +32,7 @@
    "url": "https://origin-fast.b-cdn.net/CNN_BRASIL/index.m3u8",
    "falhas": 0,
    "primeiro_visto": 1795416566,
-   "visto": 1795813006,
+   "visto": 1795849719,
    "status": "tocando"
   }
  ]
